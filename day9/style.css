@@ -50,7 +50,6 @@
     background-size: cover;
     background-position: center;
     height: 500px;
-
 }
 .description{
     color: rgb(255, 255, 255);
@@ -77,6 +76,12 @@
     background-position: center;
     
     color: aliceblue;
+    @media all and (min-width: 600px) {
+        {
+            font-size: 2px;
+        }
+    }
+
 }
 .description2 h3{
 
@@ -90,9 +95,4 @@
     position: relative;
     left: 0px;
     top: 100px;
-}
-@media all and (max-width: 600px) {
-    .section2{
-        font-size: 2px;
-    }
 }
