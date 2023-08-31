@@ -1,0 +1,150 @@
+*{
+    margin: 0;
+    text-decoration: none;
+
+}
+.padding{
+    padding: 40px;
+}
+.head {
+    
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+.logo {
+    width: 100px;
+    height: 100px;
+}
+.more ul{
+    display: flex;
+    list-style: none;
+    /* border: 1px solid black; */
+    color: rgba(108, 108, 118, 0.866);
+    text-transform: uppercase;
+}
+.more ul li {
+    padding-right:30px;
+    padding-left: 0px;
+}
+.more ul li:hover{
+    color: blueviolet;
+}
+.more ul li a:hover{
+    color: blueviolet;
+}
+.more ul li:last-child{
+    padding-right: 0px;
+}
+.more ul li{
+    padding-left: 0;
+}
+.more ul li a{
+    color: rgba(108, 108, 118, 0.866);
+}
+.section{
+    /* justify-content: center; */
+    padding-top: 25px;
+}
+.main {
+    width: 100%;
+    height: 100%;
+    background-image: url(images/image.jpg);
+    background-size: cover;
+    background-position: ;
+    display: flex;
+    border: 1px solid black;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+    
+    /* background-image: linear-gradient(rgba(48, 41, 41, 0.75),rgba(32, 29, 29, 0.75));
+    border-radius:0 100% 100% 0/50%; */
+    height: 525px;
+}
+.spot{
+    margin-left: 50px;
+}
+.image {
+    width: 600px;
+    height: 400px;
+}
+.gradient {
+    align-items: center;
+    background-image: linear-gradient(to right,rgba(255, 255, 255, 0.34),rgba(164, 159, 159, 0.463));
+    border-radius:0 100% 100% 0/50%;
+    height: 100%;
+    display: flex;
+    
+}
+
+.spot h2{
+    text-transform: uppercase;
+}
+button{
+    
+    margin-top: 20px;
+    background-color: rgba(136, 138, 138, 0.445);
+    color:black;
+    border:2px solid black;
+    border-radius: 50px;
+    width: 20%;
+    height: 30px;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+.icon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    justify-content: space-between;
+    padding-left: 70px;
+    padding-right: 70px;
+    padding-top: 50px;
+}
+.im{
+    padding: 20px;
+    width: 100px;
+    height: 100px;
+}
+.tx {
+    
+    text-transform: uppercase;
+    text-align: center;
+}
+.last {
+    display: flex;
+    justify-content: space-between;
+}
+.lastim {
+    width: 200px;
+    height: 200px;
+    border: 1px solid black;
+    padding: 20px;
+    
+}
+.bor{
+    border: 1px solid black;
+    padding: 10px;
+}
+.lastimage {
+    width: 200px;
+    height: 200px;
+    border: 1px solid black;
+    padding: 20px;
+}
+
+.i {
+    height: 136px;
+}
+
+.z {
+    height: 135px;
+}
+.lastsec{
+    padding-top: 50px;
+}
+/* .tyre { 
+    padding-top: 10px;
+} */
