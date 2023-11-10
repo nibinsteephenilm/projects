@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="css/style.css">
+    <script defer src="./script/script.js"></script>
+</head>
+<body>
+    <div class="main">
+        <div class="border">
+            <div class="top">
+                <input type="text" name="result" id="rs">
+                <!-- <p class="input1" id="rs"></p> -->
+            </div>
+            <div class="bottom">
+                <div class="button" data-action="clr" ><button type="button" onclick="clr()">C</button></div>
+                <div class="button" ><button type="button" onclick="percent()">%</button></div>
+                <div class="button" ><button type="button" onclick="back()"><-</button></div>
+                <div class="button" ><button type="button" onclick="div()" >/</button></div>
+                <div class="button" ><button type="button" onclick="input1(this)" >7</button></div>
+                <div class="button" ><button type="button" onclick="input1(this)" >8</button></div>
+                <div class="button" ><button type="button" onclick="input1(this)" >9</button></div>
+                <div class="button" ><button type="button" onclick="mul()">*</button></div>
+                <div class="button" ><button type="button" onclick="input1(this)" >4</button></div>
+                <div class="button" ><button type="button" onclick="input1(this)" >5</button></div>
+                <div class="button" ><button type="button" onclick="input1(this)" >6</button></div>
+                <div class="button" ><button type="button" onclick="sub()">-</button></div>
+                <div class="button" ><button type="button" onclick="input1(this)" >1</button></div>
+                <div class="button" ><button type="button" onclick="input1(this)" >2</button></div>
+                <div class="button" ><button type="button" onclick="input1(this)" >3</button></div>
+                <div class="button" ><button type="button" onclick="add(this)" >+</button></div>
+                <div class="button" ><button type="button" onclick="input1(this)" >00</button></div>
+                <div class="button" ><button type="button" onclick="input1(this)" >0</button></div>
+                <div class="button" ><button type="button" onclick="input1(this)" >.</button></div>
+                <div class="button" ><button type="button" onclick="ans()">=</button></div>
+            </div>
+        </div>
+    </div>
+    <p id="trash"></p>
+</body>
+</html>

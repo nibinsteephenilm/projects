@@ -1,0 +1,66 @@
+<svg width="30" height="30" viewBox="0 0 30 30" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g filter="url(#filter0_d_82_7680)">
+<rect x="4" y="2" width="22" height="22" rx="4" fill="#9A55FF"/>
+<g clip-path="url(#clip0_82_7680)">
+<rect width="16" height="16" transform="translate(7 5)" fill="white" fill-opacity="0.01"/>
+<g clip-path="url(#clip1_82_7680)">
+<path fill-rule="evenodd" clip-rule="evenodd" d="M12.8274 15.1714C12.7337 15.0777 12.6065 15.025 12.4739 15.025C12.3413 15.025 12.2142 15.0777 12.1204 15.1714L8.02441 19.2674V16.4994C8.02441 16.3668 7.97174 16.2396 7.87797 16.1459C7.7842 16.0521 7.65702 15.9994 7.52441 15.9994C7.39181 15.9994 7.26463 16.0521 7.17086 16.1459C7.07709 16.2396 7.02441 16.3668 7.02441 16.4994V20.4744C7.02441 20.607 7.07709 20.7342 7.17086 20.828C7.26463 20.9217 7.39181 20.9744 7.52441 20.9744H11.4994C11.632 20.9744 11.7592 20.9217 11.853 20.828C11.9467 20.7342 11.9994 20.607 11.9994 20.4744C11.9994 20.3418 11.9467 20.2146 11.853 20.1209C11.7592 20.0271 11.632 19.9744 11.4994 19.9744H8.73141L12.8274 15.8784C12.9211 15.7846 12.9738 15.6575 12.9738 15.5249C12.9738 15.3923 12.9211 15.2652 12.8274 15.1714ZM17.1714 15.1714C17.2652 15.0777 17.3923 15.025 17.5249 15.025C17.6575 15.025 17.7846 15.0777 17.8784 15.1714L21.9744 19.2674V16.4994C21.9744 16.3668 22.0271 16.2396 22.1209 16.1459C22.2146 16.0521 22.3418 15.9994 22.4744 15.9994C22.607 15.9994 22.7342 16.0521 22.828 16.1459C22.9217 16.2396 22.9744 16.3668 22.9744 16.4994V20.4744C22.9744 20.607 22.9217 20.7342 22.828 20.828C22.7342 20.9217 22.607 20.9744 22.4744 20.9744H18.4994C18.3668 20.9744 18.2396 20.9217 18.1459 20.828C18.0521 20.7342 17.9994 20.607 17.9994 20.4744C17.9994 20.3418 18.0521 20.2146 18.1459 20.1209C18.2396 20.0271 18.3668 19.9744 18.4994 19.9744H21.2674L17.1714 15.8784C17.0777 15.7846 17.025 15.6575 17.025 15.5249C17.025 15.3923 17.0777 15.2652 17.1714 15.1714ZM17.1714 10.8274C17.2652 10.9211 17.3923 10.9738 17.5249 10.9738C17.6575 10.9738 17.7846 10.9211 17.8784 10.8274L21.9744 6.73141V9.49941C21.9744 9.63202 22.0271 9.7592 22.1209 9.85297C22.2146 9.94674 22.3418 9.99941 22.4744 9.99941C22.607 9.99941 22.7342 9.94674 22.828 9.85297C22.9217 9.7592 22.9744 9.63202 22.9744 9.49941V5.52441C22.9744 5.39181 22.9217 5.26463 22.828 5.17086C22.7342 5.07709 22.607 5.02441 22.4744 5.02441H18.4994C18.3668 5.02441 18.2396 5.07709 18.1459 5.17086C18.0521 5.26463 17.9994 5.39181 17.9994 5.52441C17.9994 5.65702 18.0521 5.7842 18.1459 5.87797C18.2396 5.97174 18.3668 6.02441 18.4994 6.02441H21.2674L17.1714 10.1204C17.0777 10.2142 17.025 10.3413 17.025 10.4739C17.025 10.6065 17.0777 10.7337 17.1714 10.8274ZM12.8274 10.8274C12.7337 10.9211 12.6065 10.9738 12.4739 10.9738C12.3413 10.9738 12.2142 10.9211 12.1204 10.8274L8.02441 6.73141V9.49941C8.02441 9.63202 7.97174 9.7592 7.87797 9.85297C7.7842 9.94674 7.65702 9.99941 7.52441 9.99941C7.39181 9.99941 7.26463 9.94674 7.17086 9.85297C7.07709 9.7592 7.02441 9.63202 7.02441 9.49941V5.52441C7.02441 5.39181 7.07709 5.26463 7.17086 5.17086C7.26463 5.07709 7.39181 5.02441 7.52441 5.02441H11.4994C11.632 5.02441 11.7592 5.07709 11.853 5.17086C11.9467 5.26463 11.9994 5.39181 11.9994 5.52441C11.9994 5.65702 11.9467 5.7842 11.853 5.87797C11.7592 5.97174 11.632 6.02441 11.4994 6.02441H8.73141L12.8274 10.1204C12.9211 10.2142 12.9738 10.3413 12.9738 10.4739C12.9738 10.6065 12.9211 10.7337 12.8274 10.8274Z" fill="white"/>
+</g>
+</g>
+</g>
+<defs>
+<filter id="filter0_d_82_7680" x="0" y="0" width="30" height="30" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+<feFlood flood-opacity="0" result="BackgroundImageFix"/>
+<feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha"/>
+<feOffset dy="2"/>
+<feGaussianBlur stdDeviation="2"/>
+<feColorMatrix type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.075 0"/>
+<feBlend mode="normal" in2="BackgroundImageFix" result="effect1_dropShadow_82_7680"/>
+<feBlend mode="normal" in="SourceGraphic" in2="effect1_dropShadow_82_7680" result="shape"/>
+</filter>
+<clipPath id="clip0_82_7680">
+<rect width="16" height="16" fill="white" transform="translate(7 5)"/>
+</clipPath>
+<clipPath id="clip1_82_7680">
+<rect width="16" height="16" fill="white" transform="translate(7 5)"/>
+</clipPath>
+</defs>
+<!-- Code injected by live-server -->
+<script>
+	// <![CDATA[  <-- For SVG support
+	if ('WebSocket' in window) {
+		(function () {
+			function refreshCSS() {
+				var sheets = [].slice.call(document.getElementsByTagName("link"));
+				var head = document.getElementsByTagName("head")[0];
+				for (var i = 0; i < sheets.length; ++i) {
+					var elem = sheets[i];
+					var parent = elem.parentElement || head;
+					parent.removeChild(elem);
+					var rel = elem.rel;
+					if (elem.href && typeof rel != "string" || rel.length == 0 || rel.toLowerCase() == "stylesheet") {
+						var url = elem.href.replace(/(&|\?)_cacheOverride=\d+/, '');
+						elem.href = url + (url.indexOf('?') >= 0 ? '&' : '?') + '_cacheOverride=' + (new Date().valueOf());
+					}
+					parent.appendChild(elem);
+				}
+			}
+			var protocol = window.location.protocol === 'http:' ? 'ws://' : 'wss://';
+			var address = protocol + window.location.host + window.location.pathname + '/ws';
+			var socket = new WebSocket(address);
+			socket.onmessage = function (msg) {
+				if (msg.data == 'reload') window.location.reload();
+				else if (msg.data == 'refreshcss') refreshCSS();
+			};
+			if (sessionStorage && !sessionStorage.getItem('IsThisFirstTime_Log_From_LiveServer')) {
+				console.log('Live reload enabled.');
+				sessionStorage.setItem('IsThisFirstTime_Log_From_LiveServer', true);
+			}
+		})();
+	}
+	else {
+		console.error('Upgrade your browser. This Browser is NOT supported WebSocket for Live-Reloading.');
+	}
+	// ]]>
+</script>
+</svg>

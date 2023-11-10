@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="stylesheet" href="css/style.css" />
+        <title>To-Do List</title>
+    </head>
+    <body>
+        <div class="inputtext">
+            <h2>To-Do List</h2>
+            <div class="text" id="create-container">
+                <input type="text" id="head" placeholder="Add a new task" />
+                <button type="button" id="create" class="add" role="button">
+                    ADD
+                </button>
+                <button id="editSave" class="save">Save</button>
+            </div>
+            <div class="items" id="solo"></div>
+            <div class="bottom">
+                <p id="number" class="numberclass"></p>
+                <p id="delete" class="deleteclass">Delete</p>
+            </div>
+        </div>
+        <script src="script/script.js"></script>
+    </body>
+</html>

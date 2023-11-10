@@ -1,0 +1,1310 @@
+* {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	vertical-align: baseline;
+	background: transparent;
+	font-weight: normal;
+	text-decoration: none;
+	outline: none;
+    list-style: none;
+}
+ol, ul {
+	list-style: none;
+}
+header, section, article, aside, nav, footer, address {
+	display: block;
+}
+body {
+	font-family: 'exoregular';
+	font-size: 16px;
+	color: #8e8e8e;
+	overflow-x: hidden;
+    background-color: #0A0A0B;
+    color: #FFFFFF;
+}
+input,textarea,select {
+	font-family: 'exoregular';
+}
+a {
+	color: #FFFFFF;
+}
+a:hover,.submit:hover {
+	filter: alpha(opacity = 85);
+	-moz-opacity: 0.85;
+	-khtml-opacity: 0.85;
+	opacity: 0.85;
+}
+p {
+	line-height:1.6em;
+}
+.wrapper {
+	width: 90%;
+	margin: 0 auto;
+	max-width: 1200px;
+}
+@font-face {
+    font-family: 'exosemibold';
+    src: url('../fonts/Exo-SemiBold.woff2') format('woff2'),
+        url('../fonts/Exo-SemiBold.woff') format('woff');
+    font-weight: 600;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'exomedium';
+    src: url('../fonts/Exo-Medium.woff2') format('woff2'),
+        url('../fonts/Exo-Medium.woff') format('woff');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'exoregular';
+    src: url('../fonts/Exo-Regular.woff2') format('woff2'),
+        url('../fonts/Exo-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+header {
+
+}
+header div.container {
+    display: flex;
+    justify-content: space-between;
+    padding: 40px 0;
+    align-items: center;
+    text-transform: capitalize;
+}
+header div.container h1 {
+
+}
+header div.container h1 a {
+    display: flex;
+    align-items: center;
+    gap: 4px;
+}
+header div.container h1 a div.logoframe {
+    display: flex;
+    align-items: center;
+    width: 30px;
+}
+header div.container h1 a img {
+    width: 100%;
+}
+header div.container h1 a p {
+    
+}
+header div.container nav {
+    
+}
+header div.container nav ul {
+    display: flex;
+    gap: 60px;
+}
+header div.container nav ul li {
+    
+}
+
+header div.container nav ul li:nth-child(1) a {
+    color: #4177DC;
+    text-shadow: 0px 0px 32px #346DDA;
+}
+header div.container nav ul li a {
+    
+}
+#spotlight {
+    overflow: hidden;
+}
+#spotlight div.container {
+    display: flex;
+    justify-content: center;
+    /* justify-content: space-between; */
+    position: relative;
+    justify-content: center;
+
+}
+#spotlight div.container::before {
+    content: "";
+    width: 30%;
+    border-radius: 100%;
+    background: rgba(55, 74, 109, 0.60);
+    filter: blur(90px);
+    height: 300px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    transform: translate(-75%,-25%);
+
+}
+#spotlight div.container::after {
+    content: "";
+    width: 30%;
+    align-items: end;
+    border: 1px solid white;
+    background: rgba(55, 74, 109, 0.60);
+    filter: blur(90px);
+    height: 300px;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    transform: translate(100%);
+}
+/* #spotlight div.container div.left {
+    width: 500px;
+    border-radius: 500px;
+    background: rgba(55, 74, 109, 0.50);
+    filter: blur(90px);
+    height: 300px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    transform: translate(-100%);
+}
+#spotlight div.container div.right {
+    width: 500px;
+    align-items: end;
+    border: 1px solid white;
+    background: rgba(55, 74, 109, 0.50);
+    filter: blur(90px);
+    height: 300px;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    transform: translate(100%);
+    
+} */
+#spotlight div.container div.main {
+    /* width: 40%; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    /* position: relative; */
+    /* border: 1px solid white; */
+}
+#spotlight div.container div.main div.top {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#spotlight div.container div.main div.top h2 {
+    font-size: 36px;
+    font-family: 'exosemibold';
+    margin-bottom: 20px;
+}
+#spotlight div.container div.main div.top h3 {
+    font-family: 'exosemibold';
+    font-size: 24px;
+    margin-bottom: 8px;
+}
+#spotlight div.container div.main div.top div.type {
+    display: flex;
+}
+#spotlight div.container div.main div.top div.type div.flash {
+    display: flex;
+    align-items: center;
+}
+#spotlight div.container div.main div.top div.type div.flash img{
+    width: 100%;
+}
+#spotlight div.container div.main div.top div.type p {
+    color: #BABEC4;
+}
+#spotlight div.container div.main div.mid {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+#spotlight div.container div.main div.mid div.top {
+    margin-top: 48px;
+    margin-bottom: 40.78px;
+    width: 380px;
+}
+#spotlight div.container div.main div.mid div.top img {
+    width: 100%;
+}
+#spotlight div.container div.main div.mid div.spec {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 90px;
+    /* position: absolute;
+    left: 50%;
+    transform: translate(-50%); */
+    width: 105%;
+    margin-left: -9.5px;
+    /* margin-top: 40.78px; */
+    margin-bottom: 56px;
+}
+#spotlight div.container div.main div.mid div.spec div.det {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+#spotlight div.container div.main div.mid div.spec div.det div.topicon {
+    width: 20px;
+    display: flex;
+    display: block;
+    align-items: center;
+    justify-content: center;
+}
+#spotlight div.container div.main div.mid div.spec div.det div.topicon p {
+    text-transform: capitalize;
+}
+#spotlight div.container div.main div.mid div.spec div.det div.topicon img {
+    width: 100%;
+}
+#spotlight div.container div.main div.mid div.spec div.det div.middle {
+    font-size: 24px;
+}
+#spotlight div.container div.main div.mid div.spec div.det div.middle p {
+    
+}
+#spotlight div.container div.main div.mid div.spec div.det div.end {
+    font-size: 15px;
+    color: #888B91;
+    text-transform: uppercase;
+}
+#spotlight div.container div.main div.mid div.spec div.det div.end p {
+    
+}
+#spotlight div.container div.main div.bottom {
+    margin-bottom: 42px;
+}
+#spotlight div.container div.main div.bottom div.outer {
+    width: 90px;
+    height: 90px;
+    border: 2px solid  #02DB8A;
+    border-radius: 100%;
+    box-shadow: 0px 0px 5px 1px #02DB8A;
+    position: relative;
+}
+#spotlight div.container div.main div.bottom div.outer div.inner {
+    width: 70px;
+    height: 70px;
+    border: 2px solid  #099260;
+    border-radius: 100%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    /* box-shadow: 0px 0px 16px #099260; */
+    
+}
+#spotlight div.container div.main div.bottom div.outer div.inner a {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    text-transform: uppercase;
+}
+#spotlight div.container div.rightbox {
+
+}
+
+#about div.container {
+    display: flex;
+    justify-content: space-between;
+    margin: 88px 0;
+    flex-wrap: wrap;
+}
+#about div.container div.left {
+    width: 50%;
+    position: relative;
+    margin-bottom: 50px;
+}
+#about div.container div.left div.top {
+    width: 100%;
+}
+#about div.container div.left div.top img{
+    width: 100%;
+    border-radius: 8px;
+}
+#about div.container div.left div.bottom {
+    position: absolute;
+    border-radius: 20px;
+    background: rgba(255, 255, 255, 0.10);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 16px 20px;
+    /* width: 197px;
+    height: 104px; */
+    text-align: center;
+    right: 0;
+    bottom: 0;
+    backdrop-filter: blur(8px);
+    transform: translateY(50%);
+}
+#about div.container div.left div.bottom h6 {
+    font-family: 'exosemibold';
+    font-size: 20px;
+}
+#about div.container div.left div.bottom p {
+    font-size: 13px;
+}
+#about div.container div.right {
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+#about div.container div.right div.top {
+    
+}
+#about div.container div.right div.top h4 {
+    font-size: 24px;
+    font-family: 'exosemibold';
+    text-transform: capitalize;
+}
+#about div.container div.right div.mid {
+    margin-top: 24px;
+}
+#about div.container div.right div.mid p {
+    
+}
+#about div.container div.right div.rbottom {
+
+}
+#about div.container div.right div.rbottom a.button {
+    display: inline-block;
+    border-radius: 4px;
+    background-color: #4177DC;
+    padding: 14px 32px;
+    margin-top: 48px;
+}
+
+#popular {
+
+}
+#popular div.container  {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#popular div.container div.top {
+    width: 278px;
+    margin-bottom: 64px;
+}
+#popular div.container div.top p {
+    font-size: 24px;
+    font-family: 'exosemibold';
+    text-align: center;
+}
+#popular div.container div.mid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 48px;
+}
+#popular div.container div.mid div.card {
+    border-radius: 20px;
+    background-color: #111213;
+    padding-left: 24px;
+    position: relative;
+    overflow: hidden;
+}
+#popular div.container div.mid div.card div.gradient {
+    width: 190px;
+    height: 190px;
+    background-color: #374A6D80;
+    filter: blur(60px);
+    border-radius: 100%;
+    position: absolute;
+    left: -50px;
+    top: -50px;
+}
+#popular div.container div.mid div.card div.cardhead {
+    padding-top: 32px;
+}
+#popular div.container div.mid div.card div.cardhead h5 {
+    font-size: 24px;
+    font-family: 'exosemibold';
+}
+#popular div.container div.mid div.card div.cardhead p {
+    font-size: 16px;
+    color: #BABEC4;
+}
+#popular div.container div.mid div.card div.car {
+    width: 180px;
+    margin-top: 12px;
+    padding-right: 22px;
+}
+#popular div.container div.mid div.card div.car img {
+    width: 100%;
+}
+#popular div.container div.mid div.card div.spec {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    margin-top: 20.36px;
+    margin-bottom: 31px;
+    width: 165px;
+}
+#popular div.container div.mid div.card div.spec figure {
+    display: flex;
+    gap: 4px;
+    /* padding-right: 22px; */
+    line-height: 25px;
+}
+#popular div.container div.mid div.card div.spec figure img {
+    
+}
+#popular div.container div.mid div.card div.spec figure figcaption{
+    font-size: 13px;
+    /* padding-right: 22px; */
+}
+#popular div.container div.mid div.card div.purchase {
+    display: flex;
+    justify-content: space-between;
+    font-size: 20px;
+    font-family: 'exosemibold';
+}
+#popular div.container div.mid div.card div.purchase div.left {
+    
+}
+#popular div.container div.mid div.card div.purchase div.left p {
+    
+}
+#popular div.container div.mid div.card div.purchase div.right {
+    
+}
+#popular div.container div.mid div.card div.purchase div.right a {
+    
+}
+#popular div.container div.mid div.card div.purchase div.right a div.purchaseframe {
+    background-color: #4177DC;
+    border-radius: 20px 0px;
+    padding: 12px 16px;
+}
+#popular div.container div.mid div.card div.purchase div.right a div.purchaseframe div.shop {
+    width: 24px;
+}
+#popular div.container div.mid div.card div.purchase div.right a div.purchaseframe div.shop img {
+    width: 100%;
+}
+#popular div.container div.bottom {
+    margin: 48px 0;
+}
+#popular div.container div.bottom div.scroll {
+    
+}
+#popular div.container div.bottom div.scroll img {
+    
+}
+#features {
+
+}
+#features div.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 72px;
+}
+#features div.container div.top {
+    font-size: 24px;
+    font-family: 'exosemibold';
+    text-transform: capitalize;
+}
+#features div.container div.top h5 {
+    
+}
+#features div.container div.bottom {
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+    position: relative;
+}
+#features div.container div.bottom div.map {
+    /* width: 650px; */
+    
+}
+#features div.container div.bottom div.map img {
+    width: 100%;
+}
+#features div.container div.bottom div.position {
+    position: absolute;
+    top: 140px;
+}
+#features div.container div.bottom div.position div.featurescar {
+    width: 200px;
+    position: relative;
+}
+#features div.container div.bottom div.position div.featurescar img {
+    width: 100%;
+}
+#features div.container div.bottom div.position div.element {
+    /* width: 127px;
+    height: 92px; */
+    /* padding: 24px 22px; */
+    text-align: center;
+    padding: 13px 41px;
+    border-radius: 20px;
+    background: rgba(255, 255, 255, 0.10);
+    backdrop-filter: blur(8px);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    top: 61px;
+    transform: translate(-55%);
+}
+#features div.container div.bottom div.position div.element h6 {
+    font-size: 20px;
+    font-family: 'exosemibold';
+}
+#features div.container div.bottom div.position div.element p {
+    font-size: 13px;
+    font-family: 'exoregular';
+}
+#features div.container div.bottom div.position div.dist {
+    /* width: 127px;
+    height: 92px; */
+    /*  */
+    text-align: center;
+    border-radius: 20px;
+    background: rgba(255, 255, 255, 0.10);
+    backdrop-filter: blur(8px);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    top: 266px;
+    transform: translate(-55%);
+    /* padding: 17px 47px; */
+    padding: 13px 48px;
+    text-transform: capitalize;
+}
+#features div.container div.bottom div.position div.dist h6 {
+    font-size: 20px;
+    font-family: 'exosemibold';
+}
+#features div.container div.bottom div.position div.dist p {
+    font-size: 13px;
+    font-family: 'exoregular';
+}
+#features div.container div.bottom div.position div.range {
+    /* width: 127px;
+    height: 92px; */
+    text-align: center;
+    padding: 13px 48px;
+    border-radius: 20px;
+    background: rgba(255, 255, 255, 0.10);
+    backdrop-filter: blur(8px);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    right: 0;
+    top: 131px;
+    transform: translate(55%);
+    text-transform: capitalize;
+
+}
+#features div.container div.bottom div.position div.range h6 {
+    font-size: 20px;
+    font-family: 'exosemibold';
+}
+#features div.container div.bottom div.position div.range p {
+    font-size: 13px;
+    font-family: 'exoregular';
+}
+#featured {
+
+}
+#featured div.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#featured div.container div.top {
+    margin-bottom: 48px;
+    text-transform: capitalize;
+}
+#featured div.container div.top h5 {
+    font-size: 24px;
+    font-family: 'exosemibold';
+    text-align: center;
+}
+#featured div.container div.mid {
+    margin-bottom: 72px;
+}
+#featured div.container div.mid ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 32px;
+}
+#featured div.container div.mid ul li {
+    text-transform: capitalize;
+}
+#featured div.container div.mid ul li a {
+    display: flex;
+    align-items: center;
+    padding: 11px 11px;
+    background-color: #111213;
+    border-radius: 16px;
+}
+#featured div.container div.mid ul li:nth-child(1) a {
+    background-color: #4177DC;
+    padding: 13.5px 15px ;
+    text-transform: capitalize;
+}
+#featured div.container div.mid ul li:nth-child(3) a {
+    padding: 21px 11px;
+}
+#featured div.container div.mid ul li a p {
+    
+}
+#featured div.container div.mid ul li a img {
+    width: 100%;
+}
+#featured div.container div.bottom {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    gap: 72px;
+    /* width: 248px; */
+    /* width: 1240px; */
+    /* width: auto; */
+    /* padding: 50px; */
+    margin-bottom: 72px;
+}
+#featured div.container div.bottom div.card {
+    border-radius: 20px;
+    background-color: #111213;
+    padding-left: 24px;
+    position: relative;
+    overflow: hidden;
+    /* width: 248px; */
+    text-transform: capitalize;
+    margin: 0 70px;
+    
+}
+#featured div.container div.bottom div.card div.gradient {
+    width: 190px;
+    height: 190px;
+    background-color: #374A6D80;
+    filter: blur(60px);
+    border-radius: 100%;
+    position: absolute;
+    top: 50px;
+}
+#featured div.container div.bottom div.card div.cardhead {
+    padding-top: 32px;
+    /* margin-right: 52px; */
+    margin-bottom: 32px;
+}
+#featured div.container div.bottom div.card div.cardhead h5 {
+    font-size: 24px;
+    font-family: 'exosemibold';
+}
+#featured div.container div.bottom div.card div.cardhead p {
+    font-size: 16px;
+    color: #BABEC4;
+}
+#featured div.container div.bottom div.card div.car {
+    width: 180px;
+    margin-top: 12px;
+    padding-right: 22px;
+    margin-bottom: 32px;
+    height: 100px;
+}
+#featured div.container div.bottom div.card div.car img {
+    width: 100%;
+}
+#featured div.container div.bottom div.card div.purchase {
+    display: flex;
+    justify-content: space-between;
+    font-size: 20px;
+    font-family: 'exosemibold';
+}
+#featured div.container div.bottom div.card div.purchase div.left {
+    
+}
+#featured div.container div.bottom div.card div.purchase div.left p {
+    
+}
+#featured div.container div.bottom div.card div.purchase div.right {
+    
+}
+#featured div.container div.bottom div.card div.purchase div.right a {
+    
+}
+#featured div.container div.bottom div.card div.purchase div.right a div.purchaseframe {
+    background-color: #4177DC;
+    border-radius: 20px 0px;
+    padding: 12px 16px;
+}
+#featured div.container div.bottom div.card div.purchase div.right a div.purchaseframe div.shop {
+    width: 24px;
+}
+#featured div.container div.bottom div.card div.purchase div.right a div.purchaseframe div.shop img {
+    width: 100%;
+}
+#offer {
+ background-image: linear-gradient(rgba(10, 10, 11, 0.20) 0%, rgba(10, 10, 11, 0.50)),url(../images/Offer\ bg.png);
+ background-position: center;
+ background-size: cover;
+}
+#offer div.container {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 72px;
+    padding-bottom: 56px;
+    flex-wrap: wrap;
+}
+#offer div.container div.left {
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+}
+#offer div.container div.left h4 {
+    font-size: 24px;
+    font-family: 'exosemibold';
+    text-transform: capitalize;
+    margin-bottom: 32px;
+    width: 70%;
+}
+#offer div.container div.left p {
+    font-size: 16px;
+    color: #BABEC4;
+    width: 79%;
+}
+#offer div.container div.left a.button {
+    display: inline-block;
+    padding: 14px 32px;
+    border-radius: 7px;
+    margin-top: 45px;
+    background-color: #4177DC;
+    width: 125px;
+    text-align: center;
+    text-transform: capitalize;
+}
+#offer div.container div.right {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+#offer div.container div.right div.frame {
+    width: 100%;
+}
+#offer div.container div.right img {
+    width: 100%;
+}
+#logos {
+    margin: 50px 0;
+}
+#logos div.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#logos div.container ul {
+    display: grid;
+    grid-template-columns: repeat(6,1fr);
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    /* gap: 106px; */
+}
+#logos div.container ul li {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#logos div.container ul li a {
+
+}
+#logos div.container ul li a img {
+
+}
+footer {
+    padding-top: 72px;
+    padding-bottom: 32px;
+    overflow: hidden;
+}
+footer div.container {
+    position: relative;
+}
+footer div.container div.lgradient {
+    width: 30%;
+    border-radius: 500px;
+    background: rgba(55, 74, 109, 0.50);
+    filter: blur(90px);
+    height: 300px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    transform: translate(-100%,-25%);
+}
+footer div.container div.top {
+    display: flex;
+    margin-bottom: 106px;
+    justify-content: space-between;
+}
+footer div.container div.top div.main {
+    
+}
+footer div.container div.top div.main h5 {
+    
+}
+footer div.container div.top div.main h5 figure {
+    display: flex;
+    gap: 8px;
+    font-size: 24px;
+    font-family: 'exosemibold';
+    align-items: center;
+    text-transform: capitalize;
+}
+footer div.container div.top div.main h5 figure div.frame {
+    display: flex;
+    align-items: center;
+    width: 32px;
+}
+footer div.container div.top div.main h5 figure div.frame img {
+    width: 100%;
+}
+footer div.container div.top div.main h5 figure figcaption {
+    
+}
+footer div.container div.top div.main p {
+    margin-top: 24px;
+    width: 45%;
+}
+footer div.container div.top ul li {
+    line-height: 32px;
+}
+footer div.container div.top ul li:nth-child(1) {
+    font-size: 20px;
+    font-family: 'exosemibold';
+    text-transform: capitalize;
+    margin-bottom: 24px;
+
+}
+footer div.container div.top div.company {
+
+}
+footer div.container div.top div.company ul {
+    
+}
+footer div.container div.top div.company ul li {
+    
+}
+footer div.container div.top div.company ul li a {
+    
+}
+footer div.container div.top div.info {
+    
+}
+footer div.container div.top div.info ul {
+    
+}
+footer div.container div.top div.info ul li {
+    
+}
+footer div.container div.top div.social {
+    line-height: 32px;
+}
+footer div.container div.top div.social div.head {
+    font-size: 20px;
+    font-family: 'exosemibold';
+    text-transform: capitalize;
+    margin-bottom: 30px;
+}
+footer div.container div.top div.social ul {
+    display: flex;
+    gap: 24px;
+}
+footer div.container div.top div.social ul li {
+    
+}
+footer div.container div.top div.social ul li a {
+    
+}
+footer div.container div.top div.social ul li a img {
+    /* width: 100%; */
+}
+footer div.container div.bottom {
+    display: flex;
+    justify-content: center;
+    gap: 4px;
+    align-items: center;
+    color: #888B91;
+    font-size: 12px;
+}
+footer div.container div.bottom div.left {
+    
+}
+footer div.container div.bottom div.left img {
+    
+}
+footer div.container div.bottom div.right {
+    
+}
+footer div.container div.bottom div.right p {
+    
+}
+footer div.container div.rgradient {
+    width: 30%;
+    border-radius: 500px;
+    background: rgba(55, 74, 109, 0.50);
+    filter: blur(90px);
+    height: 300px;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    transform: translate(100%,25%);
+}
+@media all and (max-width:1280px) {
+    #featured div.container div.bottom div.card {
+        margin: 0 50px;
+        
+    }
+}
+@media all and (max-width:1080px) {
+    footer div.container div.top div.main {
+        width: 50%;
+    }
+    #about div.container div.right div.rbottom a {
+        padding: 10px 27px;
+        margin-top: 32px;
+    }
+}
+@media all and (max-width:980px) {
+    #spotlight {
+        overflow:visible;
+    }
+    #spotlight div.container div.main div.top h2 {
+        font-size: 30px;
+        margin-bottom: 15px;
+    }
+    #spotlight div.container div.main div.top div.type div.flash {
+        
+    }
+    #spotlight div.container div.main div.top h3 {
+        font-size: 19px;   
+    }
+    #spotlight div.container div.main div.top div.type p {
+        font-size: 15px;
+    }
+    #spotlight div.container div.main div.mid div.top {
+        width: ;
+    }
+    header div.container nav ul {
+        gap: 30px;
+    }
+    #spotlight div.container::before {
+        transform: translate(0%,-25%);
+
+    }
+    #spotlight div.container::after {
+        transform: translate(0%)
+    }
+    footer div.container div.lgradient {
+        transform: translate(-50%,-50%);
+    }
+    #spotlight div.container div.main div.top div.type div.flash {
+        width: 18px;
+    }
+    #spotlight div.container div.main div.mid div.top {
+        width: 310px;
+    }
+    #spotlight div.container div.main div.mid div.spec {
+        gap: 64px;
+    }
+    #spotlight div.container div.main div.mid div.spec div.det div.middle {
+        font-size: 22px;
+    }
+    #spotlight div.container div.main div.mid div.spec div.det div.end {
+        font-size: 13px;
+    }
+    div.main div.mid div.spec {
+        margin-left: -7.5px;
+    }
+    #featured div.container div.bottom div.card {
+        padding-left: 15px;
+    }
+    #about div.container div.left div.bottom {
+        transform: translateY(53%);
+        padding: 16px 12px;
+    }
+    #about div.container div.left div.bottom h6 {
+        font-size: 18px;
+    }
+    #about div.container div.left div.bottom p {
+        font-size: 13px;
+        width: 158px;
+    }
+    #about div.container div.right div.top h4 {
+        font-size: 22px;
+    }
+    #about div.container div.right div.mid p {
+        font-size: 15px;
+    }
+    #about div.container div.right {
+        width: 43%;
+    }
+    #about div.container div.right div.rbottom a.button {
+        padding: 9px 23px;
+        margin-top: 17px;
+    }
+    #about div.container div.right {
+        width: 46%;
+    }
+    #popular div.container div.mid div.card div.cardhead h5 {
+        font-size: 20px;
+    }
+    #popular div.container div.mid div.card div.cardhead p {
+        font-size: 15px;
+    }
+    #popular div.container div.mid div.card div.car {
+        width: 160px;
+    }
+    #popular div.container div.mid div.card div.spec {
+        margin-top: 17.36px;
+        margin-bottom: 25px;
+    }
+    #popular div.container div.mid div.card div.purchase div.right a div.purchaseframe div.shop {
+        width: 20px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    #popular div.container div.mid div.card div.purchase div.right a div.purchaseframe{
+        padding: 11px 14px;
+    }
+    #popular div.container div.mid div.card div.purchase div.left p {
+        font-size: 16px;
+    }
+    #popular div.container div.mid div.card {
+        padding-left: 21px;
+    }
+
+
+
+    #featured div.container div.bottom div.card div.cardhead h5 {
+        font-size: 20px;
+    }
+    #featured div.container div.bottom div.card div.cardhead p {
+        font-size: 15px;
+    }
+    #featured div.container div.bottom div.card div.car {
+        width: 160px;
+        margin-bottom: 4px;
+    }
+    #featured div.container div.bottom div.card div.spec {
+        margin-top: 17.36px;
+        margin-bottom: 25px;
+    }
+    #featured div.container div.bottom div.card div.purchase div.right a div.purchaseframe div.shop {
+        width: 20px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    #featured div.container div.bottom div.card div.purchase div.right a div.purchaseframe{
+        padding: 11px 14px;
+        height: 100%;
+    }
+    #featured div.container div.bottom div.card div.purchase div.left p {
+        font-size: 16px;
+    }
+    #featured div.container div.bottom div.card {
+        padding-left: 21px;
+        justify-content: space-between;
+        display: flex;
+        flex-direction: column;
+    }
+    footer div.container div.rgradient {
+        transform: translate(0,25%);
+    }
+    #offer div.container div.left h4 {
+        font-size: 22px;
+    }
+    #offer div.container div.left p {
+        font-size: 15px;
+    }
+    #offer div.container div.left a.button {
+        padding: 9px 23px;
+        margin-top: 17px;
+        font-size: 16px;
+    }
+    #offer div.container div.left h4 {
+        width: 100%;
+    }
+    #offer div.container div.left p {
+        width: 100%;
+    }
+    footer div.container div.top div.main p {
+        width: 82%;
+    }
+    footer div.container div.top div.main {
+        width: 43%;
+    }
+    footer div.container div.top {
+        margin-bottom: 63px;
+    }
+    #features {
+        overflow: hidden;
+    }
+    #features div.container div.bottom div.map {
+        width: 552px;
+    }
+    #features div.container div.bottom div.position div.featurescar {
+        width: 126px;
+    }
+    #features div.container div.bottom div.position {
+        transform: translate(-5%, -13%);
+    }
+    #features div.container div.bottom div.position div.element h6 {
+        font-size: 18px;
+    }
+    #features div.container div.bottom div.position div.range h6 {
+        font-size: 18px;
+    }
+    #features div.container div.bottom div.position div.dist h6 {
+        font-size: 18px;
+    }
+    #features div.container div.bottom div.position div.element {
+        text-align: center;
+        padding: 6px 25px;
+    }
+    #features div.container div.bottom div.position div.element p {
+        line-height: 15px;
+    }
+    #features div.container div.bottom div.position div.range {
+        text-align: center;
+        padding: 6px 26px;
+        top: 112px;
+    }
+    #features div.container div.bottom div.position div.range p {
+        line-height: 15px;
+    }
+    #features div.container div.bottom div.position div.dist {
+        text-align: center;
+        padding: 6px 29px;
+        top: 192px;
+    }
+    #features div.container div.bottom div.position div.dist p {
+        line-height: 15px;
+    }
+}
+@media all and (max-width:768px) {
+    #about div.container div.left {
+        width: 100%;
+        margin-bottom: 100px;
+    }
+    #about div.container div.right {
+        width: 100%;
+    }
+    #popular {
+        overflow: hidden;
+    }
+    #popular div.container div.mid {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 48px;
+        /* width: 100%; */
+        width: 685px;
+    }
+    #popular div.container div.bottom {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+    #popular div.container div.mid {
+        grid-template-columns: repeat(2, 1fr);
+        width: auto;
+    }
+    #featured div.container div.bottom {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 37px;
+        margin-bottom: 32px;
+    }
+    #logos div.container ul {
+        display: grid;
+        grid-template-columns: repeat(3,1fr);
+    }
+    #logos div.container ul li {
+        margin-top: 20px;
+    }
+    footer div.container div.top {
+        display: block;
+    }
+    footer div.container div.top div.main p {
+        width: 100%;
+    }
+    footer div.container div.top div.company ul {
+        margin-top: 30px;
+    }
+    footer div.container div.top div.info ul {
+        margin-top: 30px;
+    }
+    footer div.container div.top div.social {
+        margin-top: 30px;
+    }
+    #offer div.container div.left {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+    #offer div.container div.right {
+        width: 100%;
+    }
+    #offer div.container div.right div.frame {
+        width: 75%;
+    }
+    #offer div.container div.right {
+        margin-top: 30px;
+    }
+    #offer div.container div.left h4 {
+        width: 50%;
+    }
+    #offer div.container div.left p {
+        width: 50%;
+    }
+}
+@media all and (max-width:640px) {
+    header div.container nav ul {
+        display: none;
+    }
+}
+@media all and (max-width:480px) {
+    #offer {
+        overflow: hidden;
+    }
+    #featured div.container div.bottom {
+        grid-template-columns: repeat(1, 1fr);
+    }
+    #popular div.container div.mid {
+        grid-template-columns: repeat(1, 1fr);
+    }
+    #offer div.container div.right div.frame {
+        width: 400px;
+        margin-left: 128px
+    }
+    #offer div.container div.left h4 {
+        width: 312px;
+    }
+    #offer div.container div.left p {
+        width: 312px;
+    }
+}
+@media all and (max-width:360px) {
+
+}
+@media all and (max-width:320px) {
+
+}

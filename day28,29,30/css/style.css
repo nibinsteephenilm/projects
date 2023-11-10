@@ -1,0 +1,1534 @@
+* {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	vertical-align: baseline;
+	background: transparent;
+	font-weight: normal;
+	text-decoration: none;
+	outline: none;
+    list-style: none;
+}
+ol, ul {
+	list-style: none;
+}
+header, section, article, aside, nav, footer, address {
+	display: block;
+}
+body {
+	font-family: 'barlowregular';
+	font-size: 16px;
+	overflow-x: hidden;
+    background-color: #F8F9FA;
+    /* display: flex; */
+    /* overflow-y: hidden; */
+    background-image:url(../images/background-img.svg);
+    /* background-size: contain; */
+    background-size: 1219px;
+    background-repeat: no-repeat;
+    background-position-y: -25%;
+    background-position-x: -48%;
+    background-color: #F8F9FA;
+}
+input,textarea,select {
+	font-family: 'barlowregular';
+}
+a {
+	color: black;
+}
+a:hover,.submit:hover {
+	filter: alpha(opacity = 85);
+	-moz-opacity: 0.85;
+	-khtml-opacity: 0.85;
+	opacity: 0.85;
+}
+p {
+	line-height:1.6em;
+}
+.wrapper {
+	width: 90%;
+    /* width: 95%; */
+	margin: 0 auto;
+	/* max-width: 1200px; */
+}
+@font-face {
+    font-family: 'albertsansbold';
+    src: url('../fonts/AlbertSans-Bold.woff2') format('woff2'),
+        url('../fonts/AlbertSans-Bold.woff') format('woff');
+    font-weight: 700;
+    font-style: normal;
+    font-display: swap;
+}
+@font-face {
+    font-family: 'albertsanssemibold';
+    src: url('../fonts/AlbertSans-SemiBold.woff2') format('woff2'),
+        url('../fonts/AlbertSans-SemiBold.woff') format('woff');
+    font-weight: 600;
+    font-style: normal;
+    font-display: swap;
+}
+@font-face {
+    font-family: 'albertsansregular';
+    src: url('../fonts/AlbertSans-Regular.woff2') format('woff2'),
+        url('../fonts/AlbertSans-Regular.woff') format('woff');
+    font-weight: 400;
+    font-style: normal;
+    font-display: swap;
+}
+@font-face {
+    font-family: 'barlowregular';
+    src: url('../fonts/Barlow-Regular.woff2') format('woff2'),
+        url('../fonts/Barlow-Regular.woff') format('woff');
+    font-weight: 400;
+    font-style: normal;
+    font-display: swap;
+}
+@font-face {
+    font-family: 'barlowmedium';
+    src: url('../fonts/Barlow-Medium.woff2') format('woff2'),
+        url('../fonts/Barlow-Medium.woff') format('woff');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+@font-face {
+    font-family: 'barlowsemibold';
+    src: url('../fonts/Barlow-SemiBold.woff2') format('woff2'),
+        url('../fonts/Barlow-SemiBold.woff') format('woff');
+    font-weight: 600;
+    font-style: normal;
+    font-display: swap;
+}
+div.flex {
+    display: flex;
+    /* gap: 29px; */
+    justify-content: space-between;
+    margin-bottom: 67px;
+}
+div.flex aside {
+    /* width: 20%; */
+    width: 14%;
+    padding: 32px 16px;
+    margin-top: 22px;
+    background-color: #fff;
+    box-shadow: 0px 4px 10px 0px rgba(0, 0, 0, 0.08);
+    height: 100%;
+    border-radius: 8px;
+}
+div.flex aside div.top {
+    margin: 32px 0;
+}
+div.flex aside div.top h1 {
+    
+}
+div.flex aside div.top h1 a {
+    
+}
+div.flex aside div.top h1 a div.logoframe {
+    width: 110px;
+    margin: 0 16px;
+}
+div.flex aside div.top h1 a div.logoframe img {
+    width: 100%;
+}
+div.flex aside div.mid {
+    margin-bottom: 32px;
+}
+div.flex aside div.mid h3 {
+    font-size: 14px;
+    text-transform: uppercase;
+    font-family: "albertsansbold";
+    color: #6C757D;
+    padding: 8px 0;
+    margin-bottom: 16px;
+}
+div.flex aside div.mid nav {
+    
+}
+div.flex aside div.mid nav ul {
+    
+}
+div.flex aside div.mid nav ul li {
+    padding: 8px 16px;
+    margin-bottom: 16px;
+    border-radius: 4px;
+}
+div.flex aside div.mid nav ul li a {
+    
+}
+div.flex aside div.mid nav ul li a figure {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+div.flex aside div.mid nav ul li a figure div.iconframe {
+    width: 14px;
+    display: flex;
+    align-items: center;
+}
+div.flex aside div.mid nav ul li a figure div.iconframe img {
+    width: 100%;
+}
+div.flex aside div.mid nav ul li a figure figcaption {
+    color: #212529;
+    text-transform: capitalize;
+}
+div.flex aside div.mid nav ul li a figure figcaption:active {
+    color: #9A55FF;
+}
+div.flex aside div.mid nav ul li:hover {
+    background-color: #E7D7FF;
+}
+div.flex aside div.bottom {
+    margin-bottom: 32px;
+}
+div.flex aside div.bottom h3 {
+    font-size: 14px;
+    text-transform: uppercase;
+    font-family: "albertsansbold";
+    color: #6C757D;
+    padding: 8px 0;
+    margin-bottom: 16px;
+}
+div.flex aside div.bottom nav {
+    
+}
+div.flex aside div.bottom nav ul {
+    
+}
+div.flex aside div.bottom nav ul li:last-child {
+    margin-top: 32px;
+}
+div.flex aside div.bottom nav ul li {
+    padding: 8px 16px;
+    margin-bottom: 16px;
+    border-radius: 4px;
+}
+div.flex aside div.bottom nav ul li a {
+    
+}
+div.flex aside div.bottom nav ul li a figure {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+div.flex aside div.bottom nav ul li a figure div.iconframe {
+    width: 14px;
+    display: flex;
+    align-items: center;
+}
+div.flex aside div.bottom nav ul li a figure div.iconframe img {
+    width: 100%;
+}
+div.flex aside div.bottom nav ul li a figure figcaption {
+    color: #212529;
+    text-transform: capitalize;
+}
+div.flex aside div.bottom nav ul li a figure figcaption:active {
+    color: #9A55FF;
+}
+div.flex aside div.bottom nav ul li:hover {
+    background-color: #E7D7FF;
+}
+div.flex div.main {
+    width: 82%;
+    /* margin-left: 29px; */
+}
+div.flex div.main header {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    justify-content: space-between;
+    margin-top: 41px;
+    margin-bottom: 59px;
+}
+div.flex div.main header div.left {
+    display: flex;
+    align-items: center;
+    gap: 28px;
+}
+div.flex div.main header div.left div.avatarframe {
+    width: 89px;
+}
+div.flex div.main header div.left div.avatarframe img {
+    width: 100%;
+}
+div.flex div.main header div.left div.greeting {
+    
+}
+div.flex div.main header div.left div.greeting div.text1 {
+    display: flex;
+    align-items: center;
+}
+div.flex div.main header div.left div.greeting div.text1 p {
+    color: #212529;
+    font-size: 24px;
+    font-family: 'albertsansbold';
+    text-transform: capitalize;
+}
+div.flex div.main header div.left div.greeting div.text1 h5 {
+    color: #9A55FF;
+    font-size: 24px;
+    font-family: 'albertsansbold';
+    text-transform: capitalize;
+}
+div.flex div.main header div.left div.greeting div.text2 {
+    
+}
+div.flex div.main header div.left div.greeting div.text2 p {
+    color: #6C757D;
+    font-size: 15px;
+    font-family: 'barlowsemibold';
+}
+div.flex div.main header div.right {
+    display: flex;
+    align-items: center;
+    
+}
+div.flex div.main header div.right div.search {
+    
+}
+div.flex div.main header div.right div.search input {
+    padding: 10px 12px;
+    border: 1px solid #CED4DA;
+    border-radius: 4px 0 0 4px;
+}
+div.flex div.main header div.right div.search input::placeholder {
+    color: #6C757D;
+    font-family: 'albertsansregular';
+}
+div.flex div.main header div.right div.searchbutton {
+    background-color: #9A55FF;
+    padding: 6px 12px;
+    border-radius: 0px 4px 4px 0px;
+}
+div.flex div.main header div.right div.searchbutton a {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+div.flex div.main header div.right div.searchbutton a div.lens {
+    width: 16px;
+    display: flex;
+    align-items: center;
+}
+div.flex div.main header div.right div.searchbutton a div.lens img {
+    width: 100%;
+}
+div.flex div.main header div.right div.searchbutton a p {
+    color: #fff;
+    font-family: 'albertsanssemibold';
+    text-transform: capitalize;
+}
+#spotlight {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+#spotlight div.left {
+    width: 74%;
+    display: flex;
+    flex-direction: column;
+    gap: 21px;
+}
+#spotlight div.left div.top {
+    display: flex;
+    /* gap: 21px; */
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+#spotlight div.left div.top div.target {
+    width: 17%;
+    border-radius: 10.5px;
+    background: linear-gradient(336deg, #D355FF 0%, #9A55FF 57.79%);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 24px 12px;
+}
+#spotlight div.left div.top div.target div.circulargraph {
+    margin-bottom: 8px;
+}
+#spotlight div.left div.top div.target div.circulargraph div.cgraphframe {
+    width: 100%;
+}
+#spotlight div.left div.top div.target div.circulargraph div.cgraphframe img {
+    width: 100%;
+}
+#spotlight div.left div.top div.target div.order {
+    
+}
+#spotlight div.left div.top div.target div.order div.points {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin-bottom: 4px;
+}
+#spotlight div.left div.top div.target div.order div.points div.achpoints {
+    text-align: center;
+    display: flex;
+    align-items: center;
+}
+#spotlight div.left div.top div.target div.order div.points div.achpoints p {
+    font-size: 24px;
+    font-family: 'albertsansbold';
+    color: #fff;
+    text-align: center;
+}
+#spotlight div.left div.top div.target div.order div.points div.targetpoints {
+    text-align: center;
+    display: flex;
+    align-items: center;
+}
+#spotlight div.left div.top div.target div.order div.points div.targetpoints p {
+    font-size: 16px;
+    font-family: 'albertsansbold';
+    color: #fff;
+    text-align: center;
+}
+#spotlight div.left div.top div.target div.order div.targettxt {
+    text-align: center;
+}
+#spotlight div.left div.top div.target div.order div.targettxt p {
+    font-size: 14px;
+    font-family: 'barlowsemibold';
+    color: #F8F9FA;
+    text-transform: capitalize;
+}
+#spotlight div.left div.top div.income {
+    display: flex;
+    align-items: center;
+    padding: 24px 16px;
+    border-radius: 10.5px;
+    border: 0.75px solid var(--components-accordion-border, rgba(0, 0, 0, 0.13));
+    background: var(--gray-white, #FFF);
+    /* gap: 12px; */
+    justify-content: space-between;
+    width: 73%;
+}
+#spotlight div.left div.top div.income div.mincome {
+    width: 45%;
+}
+#spotlight div.left div.top div.income div.mincome div.mincometxt {
+
+}
+#spotlight div.left div.top div.income div.mincome div.mincometxt p {
+    color: #212529;
+    font-family: 'barlowsemibold';
+    text-transform: capitalize;
+}
+#spotlight div.left div.top div.income div.mincome div.price {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 17px 0;
+}
+#spotlight div.left div.top div.income div.mincome div.price div.amount {
+
+}
+#spotlight div.left div.top div.income div.mincome div.price div.amount p {
+    font-size: 24px;
+    font-family: 'albertsansbold';
+    color: #212529;
+}
+#spotlight div.left div.top div.income div.mincome div.price div.stock {
+    border-radius: 15.75px;
+    background: #E1F4CB;
+    display: flex;
+    align-items: center;
+    gap: 3px;
+    padding: 0 6px;
+}
+#spotlight div.left div.top div.income div.mincome div.price div.stock div.greenuparrowframe {
+    width: 9px;
+    display: flex;
+    align-items: center;
+}
+#spotlight div.left div.top div.income div.mincome div.price div.stock div.greenuparrowframe img {
+    width: 100%;
+}
+#spotlight div.left div.top div.income div.mincome div.price div.stock div.mainpercent {
+
+}
+#spotlight div.left div.top div.income div.mincome div.price div.stock div.mainpercent p {
+    font-family: 'albertsansbold';
+    font-size: 10.5px;
+    color: #62912C;
+}
+#spotlight div.left div.top div.income div.mincome div.comparison {
+
+}
+#spotlight div.left div.top div.income div.mincome div.comparison::after {
+    content: "";
+    display: flex;
+    width: 100%;
+    height: 1px;
+    background-color: #21252940;
+    margin: 17px 0;
+}
+#spotlight div.left div.top div.income div.mincome div.comparison p {
+    font-size: 14px;
+    color: #6C757D;
+    font-family: 'barlowmedium';
+}
+#spotlight div.left div.top div.income div.mincome div.accounting {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+#spotlight div.left div.top div.income div.mincome div.accounting div.callfrme {
+    width: 28.5px;
+    display: flex;
+    align-items: center;
+}
+#spotlight div.left div.top div.income div.mincome div.accounting div.callfrme img {
+    width: 100%;
+}
+#spotlight div.left div.top div.income div.mincome div.accounting div.accountdet {
+
+}
+#spotlight div.left div.top div.income div.mincome div.accounting div.accountdet div.accounttxt {
+
+}
+#spotlight div.left div.top div.income div.mincome div.accounting div.accountdet div.accounttxt p {
+    color: #212529;
+    font-size: 15px;
+    font-family: 'barlowsemibold';
+    text-transform: capitalize;
+}
+#spotlight div.left div.top div.income div.mincome div.accounting div.accountdet div.period {
+
+}
+#spotlight div.left div.top div.income div.mincome div.accounting div.accountdet div.period p {
+    font-size: 14px;
+    color: #6C757D;
+    font-family: 'barlowmedium';
+}
+#spotlight div.left div.top div.income div.bargraph {
+    width: 50%;
+}
+#spotlight div.left div.top div.income div.bargraph img {
+    width: 100%;
+}
+#spotlight div.left div.bottom {
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 21px;
+}
+#spotlight div.left div.bottom div.card {
+    padding: 24px 16px;
+    border-radius: 10.5px;
+    border: 0.75px solid var(--components-accordion-border, rgba(0, 0, 0, 0.13));
+    background: var(--gray-white, #FFF);
+}
+#spotlight div.left div.bottom div.card div.statframe {
+    width: 28.5px;
+    display: flex;
+    align-items: center;
+}
+#spotlight div.left div.bottom div.card div.statframe img {
+    width: 100%;
+}
+#spotlight div.left div.bottom div.card div.total {
+    margin: 12px 0;
+}
+#spotlight div.left div.bottom div.card div.total p {
+    color: #6C757D;
+    font-size: 15px;
+    font-family: 'barlowsemibold';
+    text-transform: capitalize;
+}
+#spotlight div.left div.bottom div.card div.cardprice {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 12px;
+}
+#spotlight div.left div.bottom div.card div.cardprice div.cardamount {
+    
+}
+#spotlight div.left div.bottom div.card div.cardprice div.cardamount p {
+    font-size: 24px;
+    color: #212529;
+    font-family: 'albertsansbold';
+}
+#spotlight div.left div.bottom div.card div.cardprice div.cardstock {
+    display: flex;
+    align-items: center;
+    padding: 0 6px;
+    gap: 3px;
+    background-color: #E1F4CB;
+    border-radius: 15.75px;
+}
+#spotlight div.left div.bottom div.card div.cardprice div.cardstock div.cardgreenuparrowframe {
+    width: 9px;
+    display: flex;
+    align-items: center;
+}
+#spotlight div.left div.bottom div.card div.cardprice div.cardstock div.cardgreenuparrowframe img {
+    width: 100%;
+}
+#spotlight div.left div.bottom div.card div.cardprice div.cardstock div.cardmainpercent {
+    
+}
+#spotlight div.left div.bottom div.card div.cardprice div.cardstock div.cardmainpercent p {
+    font-size: 10.5px;
+    color: #62912C;
+    font-family: 'albertsansbold';
+}
+
+
+
+#spotlight div.left div.bottom div.card div.cardprice div.cardstockr {
+    display: flex;
+    align-items: center;
+    padding: 0 6px;
+    gap: 3px;
+    background-color: #FFE3E6;
+    border-radius: 15.75px;
+}
+#spotlight div.left div.bottom div.card div.cardprice div.cardstockr div.cardreddownarrowframe {
+    width: 9px;
+    display: flex;
+    align-items: center;
+}
+#spotlight div.left div.bottom div.card div.cardprice div.cardstockr div.cardreddownarrowframe img {
+    width: 100%;
+}
+#spotlight div.left div.bottom div.card div.cardprice div.cardstockr div.cardmainpercent {
+    
+}
+#spotlight div.left div.bottom div.card div.cardprice div.cardstockr div.cardmainpercent p {
+    font-size: 10.5px;
+    color: #ED4D5C;
+    font-family: 'albertsansbold';
+}
+
+
+
+#spotlight div.left div.bottom div.card div.cardprice div.cardstockb {
+    display: flex;
+    align-items: center;
+    padding: 0 6px;
+    gap: 3px;
+    background-color: #DBEEFF;
+    border-radius: 15.75px;
+}
+#spotlight div.left div.bottom div.card div.cardprice div.cardstockb div.cardblueuparrowframe {
+    width: 9px;
+    display: flex;
+    align-items: center;
+}
+#spotlight div.left div.bottom div.card div.cardprice div.cardstockb div.cardblueuparrowframe img {
+    width: 100%;
+}
+#spotlight div.left div.bottom div.card div.cardprice div.cardstockb div.cardmainpercent {
+    
+}
+#spotlight div.left div.bottom div.card div.cardprice div.cardstockb div.cardmainpercent p {
+    font-size: 10.5px;
+    color: #41A5FF;
+    font-family: 'albertsansbold';
+}
+
+
+
+#spotlight div.left div.bottom div.card div.cardgraph {
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+#spotlight div.left div.bottom div.card div.cardgraph img{
+    width: 100%;
+}
+#spotlight div.right {
+    padding: 24px 16px;
+    border-radius: 10.5px;
+    border: 0.75px solid var(--components-accordion-border, rgba(0, 0, 0, 0.13));
+    background: var(--gray-white, #FFF);
+    width: 21%;
+}
+#spotlight div.right div.best {
+
+}
+#spotlight div.right div.best::after {
+    content: "";
+    display: flex;
+    width: 100%;
+    height: 1px;
+    background-color: #21252940;
+    margin: 17px 0;
+}
+#spotlight div.right div.best h5 {
+    font-size: 16px;
+    font-family: 'barlowsemibold';
+    color: #212529;
+    text-transform: capitalize;
+}
+#spotlight div.right div.products {
+    display: grid;
+    grid-template-columns: repeat(1,1fr);
+    gap: 12px;
+}
+#spotlight div.right div.products div.card {
+    
+}
+#spotlight div.right div.products div.card a {
+    display: flex;
+    align-items: center;
+    /* gap: 8px; */
+    justify-content: space-between;
+    padding: 8px;
+    border-radius: 5px;
+    background: var(--gray-100, #F8F9FA);
+}
+#spotlight div.right div.products div.card a figure {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+#spotlight div.right div.products div.card a figure div.vesselframe {
+    
+}
+#spotlight div.right div.products div.card a figure div.vesselframe img {
+    width: 100%;
+    border-radius: 5px;
+}
+#spotlight div.right div.products div.card a figure figcaption {
+    
+}
+#spotlight div.right div.products div.card a figure figcaption div.vesselname {
+    
+}
+#spotlight div.right div.products div.card a figure figcaption div.vesselname p {
+    color: #47178E;
+    font-family: 'albertsanssemibold';
+    font-size: 14px;
+    text-transform: capitalize;
+}
+#spotlight div.right div.products div.card a figure figcaption div.vesselcmpny {
+    
+}
+#spotlight div.right div.products div.card a figure figcaption div.vesselcmpny p {
+    color: #6C757D;
+    font-size: 14px;
+    text-transform: capitalize;
+}
+#spotlight div.right div.products div.card a div.price {
+    
+}
+#spotlight div.right div.products div.card a div.price p {
+    color: #47178E;
+    text-align: right;
+    font-family: 'albertsanssemibold';
+    font-size: 14px;
+}
+#customers {
+    display: flex;
+    margin-top: 22px;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+#customers div.left {
+    border-radius: 10.5px;
+    border: 0.75px solid var(--components-accordion-border, rgba(0, 0, 0, 0.13));
+    background: var(--gray-white, #FFF);
+    /* padding: 24px 16px; */
+    width: 74%;
+}
+#customers div.left div.top {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 24px 16px 0 16px;
+}
+#customers div.left div.bottom::before {
+    content: "";
+    width: 100%;
+    height: 1px;
+    background-color: #21252940;
+    display: flex;
+    margin:  12px 0;
+
+}
+#customers div.left div.top div.title {
+    
+}
+#customers div.left div.top div.title p {
+    color: var(--gray-900, #212529);
+    font-family: 'barlowsemibold';
+    font-size: 16px;
+    text-transform: capitalize;
+}
+#customers div.left div.top nav {
+    
+}
+#customers div.left div.top nav ul {
+    display: grid;
+    grid-template-columns: repeat(7,1fr);
+    
+}
+#customers div.left div.top nav ul li {
+    display: flex;
+    align-items: center;
+    padding: 4px 8px;
+    border: 1px solid var(--gray-300, #DEE2E6);
+    background: var(--HitBox, rgba(255, 255, 255, 0.00));
+}
+#customers div.left div.top nav ul li:nth-child(1) {
+    border-radius: 3.2px 0px 0px 3.2px;
+}
+#customers div.left div.top nav ul li:last-child {
+    border-radius: 0px 4px 4px 0px;
+}
+#customers div.left div.top nav ul li:nth-child(2) {
+    background-color: #9A55FF;
+    border: 1px solid #9A55FF;
+}
+#customers div.left div.top nav ul li:nth-child(2) a {
+    color: #fff;
+}
+#customers div.left div.top nav ul li a {
+    text-align: center;
+    width: 100%;
+    color: #9A55FF;
+}
+#customers div.left div.top nav ul li a div.arrowframe {
+    width: 12px;
+    display: flex;
+    align-items: center;
+}
+#customers div.left div.top nav ul li a div.arrowframe img {
+    width: 100%;
+}
+#customers div.left div.bottom {
+    padding: 0 16px 24px 16px  ;
+}
+#customers div.left div.bottom table {
+    width: 100%;
+    border-collapse: collapse;
+}
+#customers div.left div.bottom table tr {
+    
+}
+#customers div.left div.bottom table tr th:nth-child(1) {
+    border-radius: 5px 0 0 5px;
+}
+#customers div.left div.bottom table tr th:last-child {
+    border-radius: 0 5px 5px 0;
+}
+#customers div.left div.bottom table tr th {
+    color: var(--gray-900, #212529);
+    font-family: 'barlowsemibold';
+    font-size: 14px;
+    text-transform: capitalize;
+    text-align: left;
+    background: #EFE6FF;
+    padding: 10px ;
+    vertical-align: middle;
+}
+#customers div.left div.bottom table tr td div.dt {
+    display: flex;
+    align-items: center;
+    /* height: 41px; */
+    /* width: 41px; */
+}
+#customers div.left div.bottom table tr td div.dt p {
+    
+}
+#customers div.left div.bottom table tr td {
+    padding: 8px ;
+    color: var(--gray-600, #6C757D);
+    font-family: 'barlowmedium';
+    font-size: 14px;
+    text-transform: capitalize;
+    /* text-align: center; */
+    margin-bottom: 12px;
+    vertical-align: middle;
+}
+#customers div.left div.bottom table tr td figure {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+#customers div.left div.bottom table tr td figure div.proframe {
+    display: flex;
+    align-items: center;
+    width: 40px;
+}
+#customers div.left div.bottom table tr td figure div.proframe img {
+    width: 100%;
+}
+#customers div.left div.bottom table tr td figure figcaption {
+    
+}
+#customers div.left div.bottom table tr td div.statg {
+    border-radius: 15.75px;
+    background: #E1F4CB;
+    display: flex;
+    padding: 0.75px 6px;
+    align-items: center;
+    color: #62912C;
+    width: 58px;
+}
+#customers div.left div.bottom table tr td div.statg p {
+    width: 100%;
+    text-align: center;
+}
+#customers div.left div.bottom table tr td div.statr {
+    border-radius: 15.75px;
+    background: #FFE3E6;
+    display: flex;
+    padding: 0.75px 6px;
+    align-items: center;
+    color: #ED4D5C;
+    width: 58px;
+}
+#customers div.left div.bottom table tr td div.statr p {
+    width: 100%;
+    text-align: center;
+}
+#customers div.right {
+    width: 21%;
+    padding: 24px 16px;
+    border-radius: 10.5px;
+    border: 0.75px solid var(--components-accordion-border, rgba(0, 0, 0, 0.13));
+    background: var(--gray-white, #FFF);
+}
+#customers div.right div.city {
+    
+}
+#customers div.right div.city::after {
+    content: "";
+    display: flex;
+    width: 100%;
+    height: 1px;
+    background-color: #21252940;
+    margin: 15px 0;
+}
+#customers div.right div.city p {
+    font-family: 'barlowsemibold';
+    color: #212529;
+    text-transform: capitalize;
+}
+#customers div.right div.map {
+    position: relative;
+}
+#customers div.right div.map div.map1outline {
+    /* position: relative; */
+    display: none;
+}
+#customers div.right div.map div.map1outline img {
+    width: 100%;
+}
+#customers div.right div.map div.map1places {
+    /* position: relative; */
+    display: none;
+}
+#customers div.right div.map div.map1places img {
+    width: 100%;
+}
+#customers div.right div.map div.outline {
+    
+}
+#customers div.right div.map div.outline img {
+    width: 100%;
+}
+#customers div.right div.map div.mapplace {
+    position: absolute;
+    display: flex;
+    align-items: center;
+    top: 4%;
+}
+#customers div.right div.map div.mapplace img {
+    width: 100%;
+}
+#customers div.right div.map div.country {
+    border-radius: 0px 10.5px 10.5px 10.5px;
+    border: 0.75px solid var(--components-accordion-border, rgba(0, 0, 0, 0.13));
+    background: var(--gray-white, #FFF);
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.15);
+    padding: 24px 12px;
+    position: absolute;
+    top: 48%;
+    right: 6%;
+    z-index: 1;
+}
+#customers div.right div.map div.country div.countryname {
+    margin-bottom: 2px;
+}
+#customers div.right div.map div.country div.countryname::before {
+    content: url(../images/bullseye.svg);
+    position: absolute;
+    top: 0;
+    left: 0;
+    transform: translate(-50%,-40%);
+}
+#customers div.right div.map div.country div.countryname p {
+    color: var(--gray-900, #212529);
+    font-family: 'albertsanssemibold';
+    font-size: 14px;
+    text-transform: capitalize;
+
+}
+#customers div.right div.map div.country div.ordercount {
+    display: flex;
+    align-items: center;
+}
+#customers div.right div.map div.country div.ordercount div.count {
+    
+}
+#customers div.right div.map div.country div.ordercount div.count p {
+    color: var(--gray-900, #212529);
+    font-family: 'albertsansbold';
+    font-size: 20px;
+}
+#customers div.right div.map div.country div.ordercount div.ordertxt {
+    
+}
+#customers div.right div.map div.country div.ordercount div.ordertxt p {
+    color: var(--gray-900, #212529);
+    font-family: 'barlowmedium';
+    font-size: 14px;
+}
+#customers div.right div.map div.country div.date::before {
+    content: "";
+    display: flex;
+    width: 100%;
+    height: 1px;
+    background-color: #21252940;
+    margin: 8px 0;
+}
+#customers div.right div.map div.country div.date {
+    
+}
+#customers div.right div.map div.country div.date p {
+    color: var(--gray-500, #ADB5BD);
+    font-family: 'barlowsemibold';
+    font-size: 14px;
+    text-transform: capitalize;
+    }
+#customers div.right div.zoom {
+    position: absolute;
+    bottom: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+#customers div.right div.zoom div.in {
+    width: 22px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#customers div.right div.zoom div.in a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#customers div.right div.zoom div.in a img {
+    width: 100%;
+}
+#customers div.right div.zoom div.out {
+    width: 22px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#customers div.right div.zoom div.out a{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#customers div.right div.zoom div.out a img {
+    width: 100%;
+}
+#customers div.right div.resize {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    width: 22px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#customers div.right div.resize a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#customers div.right div.resize a img {
+    width: 100%;
+}
+footer {
+    background-color: #FFF;
+    padding: 17px 0;
+}
+footer div.top {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 0;
+}
+footer div.top div.logoframe {
+    
+} 
+footer div.top div.logoframe a {
+    
+}
+footer div.top div.logoframe a img {
+    width: 100%;
+}
+footer div.top nav {
+    
+}
+footer div.top nav ul {
+    display: flex;
+    align-items: center;
+    gap:24px;
+}
+footer div.top nav ul li {
+    padding: 0 8px;
+}
+footer div.top nav ul li a {
+    color:  #212529;
+    text-transform: capitalize;
+}
+footer div.mid {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 16px 0;
+}
+footer div.bottom::before {
+    content: "";
+    display: flex;
+    width: 100%;
+    height: 1px;
+    background-color: #21252940;
+    margin: 36px 0;
+}
+footer div.mid div.craft {
+    
+}
+footer div.mid div.craft p {
+    color: #212529;
+}
+footer div.mid nav {
+    
+}
+footer div.mid nav ul {
+    display: flex;
+    align-items: center;
+    gap: 24px;
+    
+}
+footer div.mid nav ul li {
+    
+}
+footer div.mid nav ul li a {
+    
+}
+footer div.mid nav ul li a img {
+    width: 100%;
+}
+footer div.bottom {
+
+}
+footer div.bottom div.last {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+footer div.bottom div.last div.policy {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+footer div.bottom div.last div.policy a {
+    color: #212529;
+    text-transform: capitalize;
+}
+footer div.bottom div.last div.terms {
+    
+}
+footer div.bottom div.last div.terms a {
+    color: #212529;
+    text-transform: capitalize;
+}
+footer div.bottom div.copy {
+    /* transform: translateY(-90%); */
+    display: flex;
+    justify-content: center;
+    /* z-index: -1; */
+    
+}
+footer div.bottom div.copy a {
+    color: #212529;
+    font-family: 'barlowmedium';
+
+}
+@media all and (max-width:1280px){
+    #spotlight div.left div.top {
+        gap: 0;
+    }
+    #spotlight div.left div.top div.target div.order div.points div.achpoints p {
+        font-size: 20px;
+    }
+    #spotlight div.left div.top div.target div.order div.points div.targetpoints p {
+        font-size: 13px;
+    }    
+    #spotlight div.left div.top div.target div.order div.points {
+        flex-direction: column;   
+    }
+    #spotlight div.left div.top div.target {
+        flex-direction: column;
+        justify-content: center;
+        padding: 24px 8px;
+    }
+    #spotlight div.left div.bottom div.card div.cardprice div.cardamount p {
+        font-size: 19px;
+    }
+    #customers div.right div.map div.country {
+        padding: 19px 9px;
+    }
+    #customers div.right div.map div.country div.ordercount div.count p {
+        font-size: 17px;
+    }
+    #customers div.right div.map div.country div.ordercount div.ordertxt p {
+        font-size: 12px;
+    }
+    #customers div.right div.map div.country div.date p {
+        font-size: 12px;
+    }
+    #customers div.right div.map div.country div.date::before {
+        margin: 6px 0
+    }
+    #customers div.right div.map div.country div.countryname {
+        margin-bottom: 0;
+    }
+}
+@media all and (max-width:1080px){
+    #spotlight div.left div.top div.target {
+        width: 100%;
+        flex-direction: row;
+    }
+    #spotlight div.left div.top div.income {
+        width: 100%;
+    }
+    #spotlight div.left div.top div.target div.order div.points {
+        flex-direction: row;
+    }
+    #spotlight div.left div.top div.target div.order div.points div.achpoints p {
+        font-size: 24px;
+    }
+    #spotlight div.left div.top div.target div.order div.points div.targetpoints p {
+        font-size: 16px;
+    }
+    div.flex div.main header div.right div.searchbutton a p {
+        display: none;
+    }
+    div.flex div.main header div.right div.search input {
+        padding: 5px 12px;
+    }
+    div.flex div.main header div.right div.searchbutton {
+        padding: 5px 10px;
+    }
+    #spotlight div.left div.bottom {
+        grid-template-columns: repeat(2,1fr);
+    }
+    #spotlight div.left {
+        width: 71%;
+    }
+    div.flex div.main {
+        width: 78%;
+    }
+    div.flex div.main header {
+        margin-bottom: 20px;
+    }
+    #spotlight div.left div.top {
+        gap: 20px;
+    }
+    #customers div.left {
+        width: 71%;
+    }
+    div.flex aside {
+        width: 19%;
+        padding: 32px 7px;
+    }
+    div.flex div.main header div.left div.greeting div.text1 p {
+        font-size: 20px;
+    }
+    div.flex div.main header div.left div.greeting div.text1 h5 {
+        font-size: 20px;
+    }
+    div.flex div.main header div.left div.greeting div.text2 p {
+        font-size: 14px;
+    }
+    #spotlight div.right {
+        padding: 24px 9px;
+        width: 23%;
+    }
+    #customers div.right div.map div.country {
+        padding: 9px;
+    }
+}
+@media all and (max-width:980px){
+    div.flex div.main header div.right div.search input {
+        display: none;
+    }
+    div.flex div.main header div.right div.searchbutton {
+        border-radius: 4px;
+    }
+    #spotlight div.left {
+        width: 100%;
+    }
+    #spotlight div.right {
+        width: 100%;
+        margin-top: 20px;
+    }
+    #spotlight div.right div.products {
+        grid-template-columns: repeat(2,1fr);
+    }
+    #customers div.left {
+        width: 100%;
+    }
+    #customers div.right {
+        width: 100%;
+    }
+    #customers div.right div.map div.mapplace {
+        width: 100%;
+    }
+    #customers div.right div.map div.country {
+        padding: 24px 12px;
+        position: absolute;
+        top: 48%;
+        right: 56%;
+    }
+    #customers div.right div.map div.country div.countryname {
+        margin-bottom: 2px;
+    }
+    #customers div.right div.map div.country div.countryname::before {
+        top: 0;
+        left: 0;
+        transform: translate(-50%,-40%);
+    }
+    #customers div.right div.map div.country div.countryname p {
+        font-size: 14px;
+    }
+    #customers div.right div.map div.country div.ordercount {
+
+    }
+    #customers div.right div.map div.country div.ordercount div.count {
+        
+    }
+    #customers div.right div.map div.country div.ordercount div.count p {
+        font-size: 20px;
+    }
+    #customers div.right div.map div.country div.ordercount div.ordertxt {
+        
+    }
+    #customers div.right div.map div.country div.ordercount div.ordertxt p {
+        font-size: 14px;
+    }
+    #customers div.right div.map div.country div.date::before {
+        margin: 8px 0;
+    }
+    #customers div.right div.map div.country div.date {
+        
+    }
+    #customers div.right div.map div.country div.date p {
+        font-size: 14px;
+    }
+    /* #customers div.right div.map div.outline {
+        background-image: url(../images/map1.svg);
+        height: 685px;
+        background-repeat: no-repeat;
+        background-size: 100%;
+       
+    } */
+    #customers div.right div.map div.outline {
+        display: none;
+    }
+    #customers div.right div.map div.mapplace {
+        display: none;
+    }
+    #customers div.right div.map div.map1outline {
+        display: block;
+        /* position: absolute; */
+        top: 0;
+        position: relative;
+    }
+    #customers div.right div.map div.map1places {
+        display: block;
+        position: absolute;
+        top: 5%;
+        width: 100%;
+    }
+    /* #customers div.right div.map div.mapplace {
+        background-image: url(../images/mapplace1.svg);
+        height: 685px;
+        background-repeat: no-repeat;
+
+        background-size: 100%;
+    } */
+    
+    #customers div.right div.zoom div.in {
+        width: 30px;
+    }
+    #customers div.right div.zoom div.out {
+        width: 30px;
+    }
+    #customers div.right div.resize {
+        width: 30px;
+    }
+    div.flex aside {
+        display: none;
+    }
+    div.flex div.main {
+        width: 100%;
+    }
+    footer div.top {
+        flex-wrap: wrap;
+    }
+    div.logoframe {
+        width: 100%;
+    }
+    footer div.top nav {
+        width: 100%;
+    }
+    footer div.top div.logoframe a {
+        display: flex;
+        align-items: center;
+        width: 110px;
+    }
+    footer div.top div.logoframe {
+        display: flex;
+        align-items: center;
+        justify-content: start;
+        margin-bottom: 43px;
+    }
+    footer div.top nav ul {
+        flex-direction: column;
+        align-items: start;
+    }
+    footer div.mid {
+        flex-direction: column;
+        align-items: start;
+    }
+    footer div.bottom::before {
+        display: none;
+    }
+    footer div.bottom div.last {
+        flex-direction: column;
+        align-items: start;
+    }
+    footer div.bottom div.copy {
+        justify-content: start;
+    }
+    footer div.top nav ul li {
+        padding: 0;
+    }
+    footer div.mid {
+        width: 25%;
+    }
+    footer div.mid {
+        margin-top: 43px;
+    }
+    footer div.mid nav {
+        margin-top: 40px;
+    }
+    footer div.bottom {
+        margin-top: 43px;
+    }
+    footer div.bottom div.last {
+        gap: 8px;
+    }
+    footer div.bottom div.copy {
+        justify-content: start;
+        margin-top: 8px;
+        margin-bottom: 43px;
+    }
+    footer div.bottom div.copy a {
+        color: var(--gray-900, #212529);
+        font-family: 'barlowregular';
+        font-size: 16px;
+    }
+    
+}
+@media all and (max-width:768px){
+    #customers div.right div.map div.country {
+        top: 48%;
+        right: 52%;
+    }
+}
+@media all and (max-width:640px){
+    div.flex div.main header div.right {
+        display: none;
+    }
+
+    #customers div.right div.map div.country {
+        top: 48%;
+        right: 48%;
+    }
+    #customers div.left div.bottom {
+        padding: 0px 4px 24px 0px;
+    }
+}
+@media all and (max-width:480px){
+    div.flex div.main header div.left div.avatarframe {
+        width: 51px;
+    }
+    div.flex div.main header div.left {
+        gap: 10px;
+    }
+    div.flex div.main header div.left div.greeting div.text1 p {
+        font-size: 16px;
+    }
+    div.flex div.main header div.left div.greeting div.text1 h5 {
+        font-size: 16px;
+    }
+    #spotlight div.left div.bottom {
+        grid-template-columns: repeat(1,1fr);
+    }
+    #spotlight div.right div.products {
+        grid-template-columns: repeat(1,1fr);
+    }
+    #customers div.right div.map div.country {
+        padding: 15px 7px;
+    }
+    #customers div.right div.map div.country div.ordercount div.count p {
+        font-size: 17px;
+    }
+    #customers div.right div.map div.country div.ordercount div.ordertxt p {
+        font-size: 12px;
+    }
+    #customers div.right div.map div.country div.date p {
+        font-size: 12px;
+    }
+    #customers div.right div.map div.country div.date::before {
+        margin: 6px 0
+    }
+    #customers div.right div.map div.country div.countryname {
+        margin-bottom: 0;
+    }
+    #customers div.right div.map div.country {
+        top: 49%;
+        right: 51%;
+    }
+}
+@media all and (max-width:360px){
+    footer div.mid nav ul {
+        gap: 8px;
+    }
+}
+@media all and (max-width:320px){
+}
+
+
+
+
+

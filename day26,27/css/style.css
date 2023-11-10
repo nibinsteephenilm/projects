@@ -1,0 +1,1262 @@
+* {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	vertical-align: baseline;
+	background: transparent;
+	font-weight: normal;
+	text-decoration: none;
+	outline: none;
+    list-style: none;
+}
+ol, ul {
+	list-style: none;
+}
+header, section, article, aside, nav, footer, address {
+	display: block;
+}
+body {
+	font-family: 'Satoshi-Regular';
+	font-size: 22px;
+	overflow-x: hidden;
+    background-color: #fff;
+    display: flex;
+    /* overflow-y: hidden; */
+}
+input,textarea,select {
+	font-family: 'Satoshi-Regular';
+}
+a {
+	color: black;
+}
+a:hover,.submit:hover {
+	filter: alpha(opacity = 85);
+	-moz-opacity: 0.85;
+	-khtml-opacity: 0.85;
+	opacity: 0.85;
+}
+p {
+	line-height:1.6em;
+}
+.wrapper {
+	/* width: 90%; */
+    width: 95%;
+	margin: 0 auto;
+	/* max-width: 1200px; */
+}
+@font-face {
+    font-family: 'Satoshi-Regular';
+    src: url('../fonts/Satoshi-Regular.woff2') format('woff2'),
+         url('../fonts/Satoshi-Regular.woff') format('woff');
+         font-weight: 400;
+         font-display: swap;
+         font-style: normal;
+  }
+@font-face {
+    font-family: 'Satoshi-Medium';
+    src: url('../fonts/Satoshi-Medium.woff2') format('woff2'),
+         url('../fonts/Satoshi-Medium.woff') format('woff');
+         font-weight: 500;
+         font-display: swap;
+         font-style: normal;
+  }  
+@font-face {
+    font-family: 'Satoshi-Bold';
+    src: url('../fonts/Satoshi-Bold.woff2') format('woff2'),
+         url('../fonts/Satoshi-Bold.woff') format('woff');
+         font-weight: 700;
+         font-display: swap;
+         font-style: normal;
+  }
+header {
+    width: 5%;
+    height: 100vh;
+    overflow-y: scroll;
+}
+header div.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 48px;
+    /* height: 100vh; */
+    /* padding: 32px 0; */
+    padding-top: 32px;
+    /* height: 100%; */
+
+}
+header div.container div.left {
+
+}
+header div.container div.left h1 {
+
+}
+header div.container div.left h1 a {
+
+}
+header div.container div.right {
+    display: flex;
+    flex-direction: column;
+    /* justify-content: space-between; */
+    gap: 190px;
+}
+header div.container div.right div.top {
+    
+}
+header div.container div.right div.top ul {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+header div.container div.right div.top ul li {
+    padding: 14px;
+    border-radius: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+header div.container div.right div.top ul li:hover{
+    background: rgba(38, 115, 110, 0.10);
+}
+header div.container div.right div.bottom ul li:hover{
+    background: rgba(38, 115, 110, 0.10);
+}
+header div.container div.right div.top ul li a div.icon:active{
+    background-color: #339993;
+}
+header div.container div.right div.bottom ul li a div.bicon:active{
+    background-color: #339993;
+}
+header div.container div.right div.top ul li a {
+
+}
+header div.container div.right div.top ul li a div.icon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 100%;
+}
+header div.container div.right div.top ul li a div.icon img {
+
+}
+header div.container div.right div.bottom {
+    
+}
+header div.container div.right div.bottom ul {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+header div.container div.right div.bottom ul li {
+    padding: 14px;
+    border-radius: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+header div.container div.right div.bottom ul li a {
+
+}
+header div.container div.right div.bottom ul li a div.bicon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 100%;
+}
+header div.container div.right div.bottom ul li a div.bicon img {
+
+}
+#dashboard {
+    width: 24%;
+    border-left: 1px solid #E3E8E7;
+    overflow: scroll;
+    height: 100vh;
+}
+#dashboard div.container {
+    
+    /* padding: 20px 24px; */
+    padding-top: 20px;
+}
+#dashboard div.container div.top {
+    display: flex;
+    padding-left: 24px;
+    padding-bottom: 24px;
+    /* padding-right: 24px; */
+    justify-content: space-between;
+}
+#dashboard div.container div.top h2 {
+    font-size: 24px;
+    font-family: 'Satoshi-Bold';
+    text-transform: capitalize;
+}
+#dashboard div.container div.top div.threedot {
+
+}
+#dashboard div.container div.top div.threedot a {
+
+}
+#dashboard div.container div.top div.threedot a img {
+
+}
+#dashboard div.container div.mid {
+    padding: 0 24px;
+    padding-right: 0;
+}
+#dashboard div.container div.mid div.search {
+    display: flex;
+    border-radius: 52px;
+    border: 1px solid #E3E8E7;
+    background: #FFF;
+    margin-bottom: 12px;
+    padding: 5px 20px;
+    gap: 10px;
+
+}
+#dashboard div.container div.mid div.search div.searchframe {
+    display: flex;
+    align-items: center;
+}
+#dashboard div.container div.mid div.search div.searchframe img {
+
+}
+#dashboard div.container div.mid div.search input {
+
+}
+#dashboard div.container div.mid div.new {
+    border-radius: 52px;
+    background: #329993;
+}
+#dashboard div.container div.mid div.new a {
+    display: flex;
+    color: #FFF;
+    padding: 5px 20px;
+    align-items:center;
+    justify-content: center;
+    gap: 8px;
+}
+#dashboard div.container div.mid div.new a div.plusframe {
+    display: flex;
+    width: 20px;
+}
+#dashboard div.container div.mid div.new a div.plusframe img {
+    width: 100%;
+}
+#dashboard div.container div.mid div.new a p {
+    font-size: 16px;
+    font-family:'Satoshi-Medium';
+    text-transform: capitalize;
+    font-family: 'Satoshi-Medium';
+}
+#dashboard div.container div.bottom {
+
+}
+#dashboard div.container div.bottom div.card {
+
+}
+#dashboard div.container div.bottom div.card ul {
+
+}
+#dashboard div.container div.bottom div.card ul li {
+    /* border-bottom: 1px solid black; */
+}
+#dashboard div.container div.bottom div.card ul li::after {
+    content: "";
+    display: flex;
+    width: 90%;
+    height: 1px;
+    background-color: #E3E8E7;
+    margin-left: 25px;
+}
+#dashboard div.container div.bottom div.card ul li:nth-child(1) a div.right div.msgstatus div.msgstatusframe {
+    border-radius: 100%;
+    background: #D00;
+    display: flex;
+    justify-content: center;
+}
+#dashboard div.container div.bottom div.card ul li:nth-child(1) a div.right div.msgstatus div.msgstatusframe p {
+    color: #FFF;
+    
+}
+#dashboard div.container div.bottom div.card ul li:nth-child(5) a div.right div.msgstatus div.msgstatusframe {
+    border-radius: 100%;
+    background: #D00;
+    display: flex;
+    justify-content: center;
+}
+#dashboard div.container div.bottom div.card ul li:nth-child(5) a div.right div.msgstatus div.msgstatusframe p {
+    color: #FFF;
+    
+}
+#dashboard div.container div.bottom div.card ul li:nth-child(6) a div.right div.msgstatus div.msgstatusframe {
+    border-radius: 100%;
+    background: #D00;
+    display: flex;
+    justify-content: center;
+}
+#dashboard div.container div.bottom div.card ul li:nth-child(6) a div.right div.msgstatus div.msgstatusframe p {
+    color: #FFF;
+    
+}
+#dashboard div.container div.bottom div.card ul li a {
+    display: flex;
+    padding: 20px 24px;
+    /* justify-content: space-between; */
+    gap: 20px;
+}
+#dashboard div.container div.bottom div.card ul li a div.left {
+    
+}
+#dashboard div.container div.bottom div.card ul li a div.left figure {
+    display: flex;
+    gap: 10px;
+    /* width: 264px; */
+    
+}
+#dashboard div.container div.bottom div.card ul li a div.left figure div.dpframe {
+    width: 54px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#dashboard div.container div.bottom div.card ul li a div.left figure div.dpframe img {
+    width: 100%;
+}
+#dashboard div.container div.bottom div.card ul li a div.left figure figcaption {
+    width: 196px;
+    height: 61px;
+    overflow-y: hidden;
+    line-height: 18px;
+}
+#dashboard div.container div.bottom div.card ul li a div.left figure figcaption h4 {
+    font-size: 16px;
+    font-family: 'Satoshi-Bold';
+    text-transform: capitalize;
+}
+#dashboard div.container div.bottom div.card ul li a div.left figure figcaption p {
+    font-size: 14px;
+}
+#dashboard div.container div.bottom div.card ul li a div.right {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 24px;
+    align-items: end;
+}
+#dashboard div.container div.bottom div.card ul li a div.right div.time {
+
+}
+#dashboard div.container div.bottom div.card ul li a div.right div.time p {
+    font-size: 14px;
+}
+#dashboard div.container div.bottom div.card ul li a div.right div.msgstatus {
+
+}
+#dashboard div.container div.bottom div.card ul li a div.right div.msgstatus p {
+    font-size: 12px;
+}
+#dashboard div.container div.bottom div.card ul li a div.right div.msgstatus div.msgstatusframe {
+
+}
+#dashboard div.container div.bottom div.card ul li a div.right div.msgstatus div.msgstatusframe {
+    display: flex;
+    align-items: center;
+    width: 24px;
+}
+#dashboard div.container div.bottom div.card ul li a div.right div.msgstatus div.msgstatusframe img {
+    width: 100%;
+}
+
+/* Style the vertical scrollbar */
+::-webkit-scrollbar {
+    width: 6px; /* Width of the scrollbar */
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: #646867; /* Color of the scrollbar thumb */
+    border-radius: 8px; /* Rounded corners for the thumb */
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background-color: #3c4846; /* Color when hovering over the scrollbar thumb */
+}
+
+/* Style the track (background) of the scrollbar */
+::-webkit-scrollbar-track {
+    background-color: #f1f1f1; /* Color of the scrollbar track */
+}
+
+/* Style the corners of the scrollbar track */
+::-webkit-scrollbar-corner {
+    background-color: transparent;
+}
+#chat {
+    width: 45%;
+    height: 100vh;
+    overflow: scroll;
+    /* background: #EEF1F1; */
+    /* padding: 0 19px; */
+    /* position: relative; */
+    /* position: relative;     */
+}
+#chat div.container {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: #EEF1F1;
+    /* overflow: hidden; */
+    
+} 
+#chat div.container div.title {
+    display: flex;
+    justify-content: space-between;
+    /* padding: 24px 31px; */
+    padding: 24px 0;
+    /* position: absolute; */
+    background-color: #fff;
+    width: 44.5%;
+    /* position: fixed; */
+    /* position: sticky; */
+    position: absolute;
+} 
+#chat div.container div.title div.left {
+    margin-left: 32px;
+}
+#chat div.container div.title div.left figure {
+    display: flex;
+    gap: 10px;
+}
+#chat div.container div.title div.left figure div.dp {
+    width: 52px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#chat div.container div.title div.left figure div.dp img {
+    width: 100%;
+}
+#chat div.container div.title div.left figure figcaption {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+#chat div.container div.title div.left figure figcaption h4 {
+    font-family: 'Satoshi-Bold';
+    font-size: 20px;
+    text-transform: capitalize;
+    width: 104px;
+    height: 27px;
+}
+#chat div.container div.title div.left figure figcaption div.onlinestat {
+    display: flex;
+    align-items: center;
+    gap: 4px;
+    width: 91px;
+    height: 18px;
+}
+#chat div.container div.title div.left figure figcaption div.onlinestat div.active {
+    border-radius: 20px;
+    background: #00B207;
+    width: 8px;
+    height: 8px;
+}
+#chat div.container div.title div.left figure figcaption div.onlinestat p {
+    font-size: 16px;
+    text-transform: capitalize;
+}
+#chat div.container div.title div.right {
+    display: flex;
+    gap: 11px;
+    margin-right: 32px;
+}
+#chat div.container div.title div.right a {
+    padding: 14px;
+    border-radius: 40px;
+    border: 1px solid #E3E8E7;
+}
+#chat div.container div.title div.right a div.voice {
+    width: 24px;
+    display: flex;
+    align-items: center;
+}
+#chat div.container div.title div.right a div.voice img {
+    width: 100%;
+}
+#chat div.container div.title div.right a div.video {
+    width: 24px;
+    display: flex;
+    align-items: center;
+}
+#chat div.container div.title div.right a div.video img {
+    width: 100%;
+}
+#chat div.container div.title div.right a div.options {
+    width: 24px;
+    display: flex;
+    align-items: center;
+}
+#chat div.container div.title div.right a div.options img {
+    width: 100%;
+}
+#chat div.container div.title div.right div.dropdown-content{
+    display: none;
+}
+#chat div.container div.title div.right div.dropdown-content.active{
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    background-color: #f9f9f9;
+    width: 200px;
+    text-align: center;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+    top: 50%;
+    right: -20%;
+}
+.test{
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    background-color: #f9f9f9;
+    width: 200px;
+    text-align: center;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+    top: 50%;
+    right: -20%;
+}
+#chat div.container div.msg {
+    font-size: 14px;
+    font-family: 'satoshi-medium';
+    border-radius: 20px;
+    /* background: #EEF1F1; */
+    /* padding: 0 19px; */
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 120px;
+    /* padding-bottom: 120px; */
+}
+#chat div.container div.msg div.sendmsg {
+    width: 93%;
+    display: flex;
+    justify-content: end;
+}
+#chat div.container div.msg div.sendmsg div.msgbox {
+    display: flex;
+    align-items: end;
+    gap: 12px;
+    margin-bottom: 20px;
+}
+#chat div.container div.msg div.sendmsg div.msgbox div.cluster {
+
+}
+#chat div.container div.msg div.sendmsg div.msgbox div.cluster div.usermsg {
+    border-radius: 20px 20px 0px 20px;
+    background: #329993;
+    padding: 20px;
+    color: #FFF;
+    width: 340px;
+}
+#chat div.container div.msg div.sendmsg div.msgbox div.cluster div.usermsg p {
+
+}
+#chat div.container div.msg div.sendmsg div.msgbox div.cluster div.ticktime {
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    gap: 6px;
+}
+#chat div.container div.msg div.sendmsg div.msgbox div.cluster div.ticktime div.chattick {
+    display: flex;
+    align-items: center;
+    width: 20px;
+}
+#chat div.container div.msg div.sendmsg div.msgbox div.cluster div.ticktime div.chattick img {
+    width: 100%;
+}
+#chat div.container div.msg div.sendmsg div.msgbox div.cluster div.ticktime p {
+    color: #758A89;
+    text-transform: uppercase;
+}
+#chat div.container div.msg div.sendmsg div.msgbox div.userdpframe {
+    width: 36px;
+    margin-bottom: 17.5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 36px;
+}
+#chat div.container div.msg div.sendmsg div.msgbox div.userdpframe img {
+    width: 100%;
+    border-radius: 36px;
+}
+#chat div.container div.msg div.recmsg {
+    width: 93%;
+    margin-bottom: 20px;
+}
+#chat div.container div.msg div.recmsg div.msgbox {
+    display: flex;
+    align-items: end;
+    gap: 12px;
+}
+#chat div.container div.msg div.recmsg div.msgbox div.userdpframe {
+    width: 36px;
+    margin-bottom: 17.5px;
+    
+}
+#chat div.container div.msg div.recmsg div.msgbox div.userdpframe img {
+    width: 100%;
+    
+}
+#chat div.container div.msg div.recmsg div.msgbox div.cluster {
+    
+}
+#chat div.container div.msg div.recmsg div.msgbox div.cluster div.usermsg {
+    padding: 20px;
+    width: 340px;
+    border-radius: 20px 20px 20px 0px;
+    background-color: #fff;
+}
+#chat div.container div.msg div.recmsg div.msgbox div.cluster div.usermsg p {
+    color: #171C1B;
+}
+#chat div.container div.msg div.recmsg div.msgbox div.cluster div.ticktime {
+    
+}
+#chat div.container div.msg div.recmsg div.msgbox div.cluster div.ticktime p {
+    color: #758A89;
+    text-transform: uppercase;
+}
+#chat div.container div.textarea {
+    border-radius: 20px;
+    border: 1px solid #E3E8E7;
+    background: #FFF;
+    width: 97%;
+    position: sticky;
+    bottom: 0;
+}
+#chat div.container div.textarea div.text {
+    border-bottom: 1px solid #E3E8E7;
+    padding-top: 20px;
+    padding-bottom: 32px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+#chat div.container div.textarea div.text input {
+    width: 100%;
+    font-family: 'Satoshi-medium';
+    color: #171C1B;
+    font-size: 14px;
+    cursor: text;
+    caret-color: #329993;
+}
+#chat div.container div.textarea div.attach {
+    display: flex;
+    justify-content: space-between;
+    padding: 12px 20px;
+}
+#chat div.container div.textarea div.attach div.icons {
+    
+}
+#chat div.container div.textarea div.attach div.icons ul {
+    display: flex;
+    /* gap: 12px; */
+}
+#chat div.container div.textarea div.attach div.icons ul li {
+    display: flex;
+    margin-right: 12px;
+}
+#chat div.container div.textarea div.attach div.icons ul li:nth-child(2) {
+    margin-right: 0;
+}
+#chat div.container div.textarea div.attach div.icons ul li:nth-child(2)::after {
+    content: "";
+    display: block;
+    height: 20px;
+    width: 1px;
+    background: #E3E8E7;
+    margin: 0 14px;
+}
+#chat div.container div.textarea div.attach div.icons ul li:nth-child(5) {
+    margin-right: 0;
+}
+#chat div.container div.textarea div.attach div.icons ul li:nth-child(5)::after {
+    content: "";
+    display: block;
+    height: 20px;
+    width: 1px;
+    background: #E3E8E7;
+    margin: 0 14px;
+}
+#chat div.container div.textarea div.attach div.icons ul li a {
+    display: flex;
+    align-items: center;
+    width: 20px;
+}
+#chat div.container div.textarea div.attach div.icons ul li a img {
+    width: 100%;
+}
+#chat div.container div.textarea div.attach div.send {
+    
+}
+#chat div.container div.textarea div.attach div.send div.sendframe {
+    
+}
+#chat div.container div.textarea div.attach div.send div.sendframe a {
+    display: flex;
+    align-items: center;
+    width: 20px;
+}
+#chat div.container div.textarea div.attach div.send div.sendframe a img {
+    width: 100%;
+}
+#userpro {
+    width: 26%;
+    /* border: 1px solid black; */
+    padding:0 24px;
+    overflow: scroll;
+    height: 100vh;
+}
+#userpro div.container {
+    
+}
+#userpro div.container div.top {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#userpro div.container div.top div.closeframe {
+    width: 100%;
+    display: flex;
+    justify-content: end;
+}
+#userpro div.container div.top div.closeframe a {
+    
+}
+#userpro div.container div.top div.closeframe a div.close {
+    width: 24px;
+    padding: 14px;
+    border-radius: 40px;
+    border: 1px solid #E3E8E7;
+    display: flex;
+    align-items: center;
+}
+#userpro div.container div.top div.closeframe a div.close img {
+    width: 100%;
+}
+#userpro div.container div.top div.pic {
+    width: 136px;
+}
+#userpro div.container div.top div.pic img {
+    width: 100%;
+}
+#userpro div.container div.top h4 {
+    font-size: 32px;
+    font-family: 'satoshi-bold';
+    text-transform: capitalize;
+    color: #171C1B;
+}
+#userpro div.container div.top p {
+    color: #465352;
+    font-size: 16px;
+}
+#userpro div.container div.mid {
+
+}
+#userpro div.container div.mid::before {
+    content: "";
+    display: flex;
+    width: 100%;
+    height: 1px;
+    background-color: #E3E8E7;
+    margin: 26px 0;
+}
+#userpro div.container div.mid::after {
+    content: "";
+    display: flex;
+    width: 100%;
+    height: 1px;
+    background-color: #E3E8E7;
+    margin: 26px 0;
+}
+#userpro div.container div.mid div.files::before {
+    content: "";
+    display: flex;
+    width: 100%;
+    height: 1px;
+    background-color: #E3E8E7;
+    margin: 26px 0;
+}
+#userpro div.container div.mid div.noti {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+#userpro div.container div.mid div.noti p {
+    color: #171C1B;
+    font-family: 'Satoshi-Bold';
+    font-size: 16px;
+    text-transform: capitalize;
+}
+#userpro div.container div.mid div.noti div.toggleframe {
+    display: flex;
+    width: 40px;
+    height: 24px;
+    background-color: #329993;
+    border-radius: 30px;
+    align-items: center;
+}
+#userpro div.container div.mid div.noti div.toggleframe div.circle {
+    display: flex;
+    align-items: center;
+    width: 18px ;
+    height: 18px;
+    background-color: #FFF;
+    border-radius: 50px;
+    margin-left: 2px;
+}
+#userpro div.container div.mid div.files {
+    
+}
+#userpro div.container div.mid div.files ul {
+    display: flex;
+    flex-direction: column;
+    gap: 14px;
+}
+#userpro div.container div.mid div.files ul li:nth-child(1) {
+    margin-bottom: 6px;
+}
+#userpro div.container div.mid div.files ul li {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+#userpro div.container div.mid div.files ul li div.left {
+    display: flex;
+    align-items: center;
+}
+#userpro div.container div.mid div.files ul li div.left h6 {
+    color: #171C1B;
+    font-size: 16px;
+    font-family: 'Satoshi-bold';
+    text-transform: capitalize;
+}
+#userpro div.container div.mid div.files ul li div.left p{
+    color: #758A89;
+    font-size: 16px;
+}
+#userpro div.container div.mid div.files ul li div.right {
+    width: 24px;
+}
+#userpro div.container div.mid div.files ul li div.right img {
+    width: 100%;
+}
+#userpro div.container div.mid div.files ul li div.left a {
+    
+}
+#userpro div.container div.mid div.files ul li div.left a figure {
+    display: flex;
+    align-items: center;
+}
+#userpro div.container div.mid div.files ul li div.left a figure div.docframe {
+    width: 24px;
+    display: flex;
+    align-items: center;
+}
+#userpro div.container div.mid div.files ul li div.left a figure div.docframe img {
+    width: 100%;
+}
+#userpro div.container div.mid div.files ul li div.left a figure figcaption {
+    color: #5D6F6D;
+    font-size: 16px;
+}
+#userpro div.container div.mid div.files ul li div.right div.dotframe {
+
+}
+#userpro div.container div.mid div.files ul li div.right div.dotframe a {
+
+}
+#userpro div.container div.mid div.files ul li div.right div.dotframe a img {
+    width: 100%;
+}
+#userpro div.container div.mid div.files ul li div.more {
+
+}
+#userpro div.container div.mid div.files ul li div.more a {
+    color: #329993;
+    text-transform: capitalize;
+    font-size: 16px;
+}
+#userpro div.container div.bottom {
+
+}
+#userpro div.container div.bottom div.imgtitle {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+#userpro div.container div.bottom div.imgtitle div.left {
+    display: flex;
+    align-items: center;
+}
+#userpro div.container div.bottom div.imgtitle div.left h6 {
+    text-transform: capitalize;
+    color: #171C1B;
+    font-family: 'Satoshi-bold';
+    font-size: 16px;
+}
+#userpro div.container div.bottom div.imgtitle div.left p {
+    color: #758A89;
+    font-size: 16px;
+
+}
+#userpro div.container div.bottom div.imgtitle div.right {
+    width: 24px;
+}
+#userpro div.container div.bottom div.imgtitle div.right img {
+    width: 100%;
+}
+#userpro div.container div.bottom div.pics {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#userpro div.container div.bottom div.pics ul {
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    align-items: center;
+    justify-content: center;
+    gap: 12px;
+}
+#userpro div.container div.bottom div.pics ul li {
+    width: 99px;
+}
+#userpro div.container div.bottom div.pics ul li a {
+    
+}
+#userpro div.container div.bottom div.pics ul li a img {
+    width: 100%;
+}
+#userpro div.container div.bottom div.block {
+    border: 1px solid #D00;
+    border-radius: 52px;
+    margin: 20px 0;
+}
+#userpro div.container div.bottom div.block a {
+    display: flex;
+    color: #D00;
+    font-family: 'Satoshi-medium';
+    font-size: 16px;
+    padding: 12px 20px;
+    gap: 6px;
+    text-transform: capitalize;
+    justify-content: center;
+}
+#userpro div.container div.bottom div.block a div.blockframe {
+    width: 20px;
+    display: flex;
+    align-items: center;
+}
+#userpro div.container div.bottom div.block a div.blockframe img {
+    width: 100%;
+}
+#userpro div.container div.bottom div.block a p {
+
+}
+@media all and (max-width:1476px){
+    #dashboard div.container div.bottom div.card ul li a {
+        display: flex;
+        padding: 13px 6px;
+        gap: 10px;
+    }
+    #dashboard div.container div.mid {
+        padding: 0px 6px;
+    }
+    #dashboard div.container div.top {
+        display: flex;
+        padding-left: 6px;
+        padding-bottom: 13px;
+    }
+    #dashboard div.container div.bottom div.card ul li a div.left figure figcaption {
+        width: 156px;
+        display: flex;
+        align-items: center;
+    }
+    #dashboard div.container div.bottom div.card ul li a div.left figure figcaption p {
+        display: none;
+    }
+    /* #chat div.container div.textarea div.text input[type="text"] {
+        content: ""; 
+        
+    } */
+}
+@media all and (max-width:1280px){
+    #dashboard div.container div.bottom div.card ul li a div.left figure figcaption {
+        width: 124px;
+    }
+    #dashboard div.container div.bottom div.card ul li a div.left figure figcaption h4 {
+        font-size: 15px;
+    }
+    header div.container div.right div.top ul li {
+        padding: 8px;
+    }
+    header div.container div.right div.bottom ul li {
+        padding: 8px;
+    }
+    header div.container div.left h1 a {
+        display: flex;
+        align-items: center;
+    }
+    #chat div.container div.title {
+        padding: 10px 0;
+    }
+    #chat div.container div.textarea div.text {
+        padding: 10px 12px;
+    }
+    #chat div.container div.textarea div.attach {
+        padding: 10px 12px;
+    }
+    #chat div.container div.msg div.sendmsg div.msgbox div.cluster div.usermsg {
+        padding: 12px;
+    }
+    #chat div.container div.msg div.recmsg div.msgbox div.cluster div.usermsg {
+        padding: 12px;
+    }
+    header div.container {
+        padding-top: 20px;
+    }
+    #userpro div.container div.bottom div.pics ul {
+        grid-template-columns: repeat(2,1fr);
+    }
+    #userpro div.container div.bottom div.block a {
+        padding: 0;
+    }
+    #dashboard div.container div.bottom div.card ul li a {
+        gap: 0;
+        justify-content: space-between;
+    }
+}
+@media all and (max-width:1080px){
+    #dashboard div.container div.bottom div.card ul li a div.left figure figcaption {
+        width: 108px;
+    }
+    #chat {
+        width: 51%;
+    }
+    #userpro {
+        width: 20%;
+    }
+    #chat div.container div.title {
+        width: 48%;
+    }
+}
+@media all and (max-width:980px){
+    #userpro {
+        display: none;
+    }
+    #chat {
+        width:60%;
+        overflow-x: hidden;
+    }
+    #dashboard {
+        width: 30%;
+        overflow-x: hidden;
+    }
+    header {
+        width: 10%;
+    }
+   
+    #dashboard div.container div.bottom div.card ul li a div.left figure figcaption {
+        width: 92px;
+    }
+    #chat div.container div.title {
+        padding: 10px 0;
+        width: 59%;
+    }
+    #chat div.container div.title div.right {
+        margin-right: 10px;
+    }
+    #chat div.container div.title div.left {
+        margin-left: 10px;
+    }
+    #dashboard div.container div.bottom div.card ul li a div.left figure figcaption h4 {
+        font-size: 14px;
+    }
+}
+@media all and (max-width:768px){
+    #chat div.container div.title div.right a div.voice {
+        width: 17px;
+    }
+    #chat div.container div.title div.right a div.video {
+        width: 17px;
+    }
+    #chat div.container div.title div.right a div.options {
+        width: 17px;
+    }
+    #chat div.container div.title div.right a {
+        display: flex;
+        align-items: center;
+    }
+    #chat div.container div.title div.right a {
+        padding: 13px;
+        border-radius: 100%;
+    }
+    #chat div.container div.title div.right {
+        gap: 4px;
+    }
+    #chat div.container div.msg {
+        width: auto;
+    }
+    #dashboard div.container div.bottom div.card ul li a div.right div.time {
+        display: none;
+    }
+    #dashboard div.container div.bottom div.card ul li a div.left figure figcaption {
+        display: none;
+        width: 71px;
+    }
+    #dashboard div.container div.bottom div.card ul li a div.right {
+        display: none;
+    }
+    #dashboard div.container div.mid div.new a p {
+        display: none;
+    }
+    #dashboard div.container div.mid div.search input {
+        display: none;
+    }
+    #dashboard div.container div.mid div.search {
+        justify-content: center;
+    }
+    #dashboard div.container div.bottom div.card ul li a {
+        justify-content: center;
+    }
+    #dashboard div.container div.top div.threedot {
+        display: none;
+    }
+    #dashboard {
+        width: 21%;
+    }
+    #chat {
+        width: 69%;
+    }
+    #chat div.container div.title {
+        padding: 0px 0;
+        width: 68%;
+    }
+    #chat div.container div.msg div.sendmsg {
+        width: auto;
+    }
+    #chat div.container div.msg div.recmsg div.msgbox div.cluster {
+        width: 86%;
+    }
+}
+@media all and (max-width:640px){
+    #dashboard {
+        display: none;
+    }
+    header div.container div.right {
+        gap: 0;
+    }
+    header div.container div.right div.top ul {
+        gap: 0;
+    }
+    header div.container div.right div.bottom ul {
+        gap: 0;
+    }
+    #chat {
+        width: 90%;
+    }
+    #chat div.container div.title {
+        padding: 0px 0;
+        width: 90%;
+    }
+    header {
+        overflow-x: hidden;
+    }
+    header div.container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 30px
+    }
+}
+@media all and (max-width:480px){
+    header{
+        display: none;
+    }
+    #chat {
+        width: 100%;
+    }
+    #chat div.container div.title {
+        width: 100%;
+    }
+    
+}
+@media all and (max-width:360px){
+    #chat div.container div.textarea div.attach div.icons {
+        display: none;
+    }    
+    #chat div.container div.textarea {
+        display: flex;
+        flex-direction: row;
+    }
+    #chat div.container div.textarea div.attach div.send::before {
+        content: url(../images/v3dot.svg);
+        width: 100%;
+        margin-top: 4.5px;
+        margin-right: 2px;
+    }
+    #chat div.container div.textarea div.attach div.send {
+        display: flex;
+        align-items: center;
+    }
+    #chat div.container div.textarea {
+        justify-content: space-between;
+        display: flex;
+        flex-direction: row;
+    }
+    #chat div.container div.title {
+        width: 100%;
+        padding: 5px 0;
+    }
+    #chat {
+        overflow-x: visible;
+    }
+    #chat div.container div.title div.left figure figcaption h4 {
+        font-size: 16px;
+    }
+    #chat div.container div.title div.left figure figcaption div.onlinestat p {
+        font-size: 12px;
+    }
+    #chat div.container div.title div.left figure figcaption div.onlinestat div.active {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    #chat div.container div.title div.left figure figcaption {
+        align-items: start;
+    }
+    #chat div.container div.title div.left figure div.dp {
+        width: 45px;
+    }
+    #chat div.container div.msg div.sendmsg div.msgbox div.userdpframe {
+        /* display: none; */
+    }
+    #chat div.container div.msg div.recmsg div.msgbox div.cluster div.usermsg {
+        width: 237px;
+    }
+    #chat div.container div.msg div.sendmsg div.msgbox div.cluster div.usermsg {
+        width: 260px;
+    }
+    #chat div.container div.msg {
+        padding-top: 0;
+    }
+    #chat div.container div.title div.left figure figcaption h4 {
+        display: flex;
+        align-items: center;
+    }
+}
+@media all and (max-width:320px){
+}

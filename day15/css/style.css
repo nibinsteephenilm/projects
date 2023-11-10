@@ -1,0 +1,902 @@
+* {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	vertical-align: baseline;
+	background: transparent;
+	font-weight: normal;
+	text-decoration: none;
+	outline: none;
+    list-style: none;
+
+}
+ol, ul {
+	list-style: none;
+}
+header, section, article, aside, nav, footer, address {
+	display: block;
+}
+body {
+	font-family: 'poppinsregular';
+	font-size: 18px;
+	color: #8e8e8e;
+	overflow-x: hidden;
+}
+input,textarea,select {
+	font-family: 'poppinsregular';
+}
+a {
+	color: #2D2D2D;
+}
+a:hover,.submit:hover {
+	filter: alpha(opacity = 85);
+	-moz-opacity: 0.85;
+	-khtml-opacity: 0.85;
+	opacity: 0.85;
+}
+p {
+	line-height:1.6em;
+}
+.wrapper {
+	width: 90%;
+	margin: 0 auto;
+	max-width: 1200px;
+    /* border: 1px solid black; */
+}
+@font-face {
+    font-family: 'poppinsbold';
+    src: url('../fonts/poppins-bold-webfont.woff2') format('woff2'),
+         url('../fonts/poppins-bold-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'poppinslight';
+    src: url('../fonts/poppins-light-webfont.woff2') format('woff2'),
+         url('../fonts/poppins-light-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'poppinsmedium';
+    src: url('../fonts/poppins-medium-webfont.woff2') format('woff2'),
+         url('../fonts/poppins-medium-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'poppinsregular';
+    src: url('../fonts/poppins-regular-webfont.woff2') format('woff2'),
+         url('../fonts/poppins-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'poppinssemibold';
+    src: url('../fonts/poppins-semibold-webfont.woff2') format('woff2'),
+         url('../fonts/poppins-semibold-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+/* custom styles starts here */
+header {
+    padding: 24px 0;
+}
+header div.container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+header div.container h1 {
+    width: 210px;
+}
+header div.container h1 a {
+    display: inline-block;
+}
+header div.container h1 a img {
+    display: block;
+    width: 100%;
+}
+header div.container nav {
+
+}
+header div.container nav ul {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+header div.container nav ul li {
+
+}
+header div.container nav ul li a {
+    display: inline-block;
+}
+header div.container nav ul li a.button {
+   background: #36F;
+   padding: 18px 50px;
+   border-radius: 8px;
+   color: #fff;
+}
+#spotlight {
+    background: #F7F5FD;
+    padding: 75px 0;
+}
+#spotlight div.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+#spotlight div.container div.left {
+    width: 39%;
+}
+#spotlight div.container div.left h2 {
+    font-family: 'poppinssemibold';
+    font-size: 70px;
+    color: #2d2d2d;
+    margin-bottom: 25px;
+}
+#spotlight div.container div.left p {
+
+}
+#spotlight div.container div.left a.button {
+    display: inline-block;
+    padding: 21px 50px;
+    background: #F8D57E;
+    border-radius: 7px;
+    margin-top: 45px;
+}
+#spotlight div.container div.right {
+    width: 50%;
+    border-radius: 10px;
+    overflow: hidden;
+}
+#spotlight div.container div.right img {
+    display: block;
+    width: 100%;
+}
+#video{
+
+    background-color: #F2FAF8;   
+}
+#video div.container {
+    padding: 70px 257px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* border: 1px solid black; */   
+}
+#video div.container div.background {
+    display: block;
+    background-image: linear-gradient(rgba(45, 45, 45, 0.90),rgba(45, 45, 45, 0.50)),url(../images/background-image.png);
+    width: 765px;
+    height: 460px;
+    background-position: center;
+    background-size: cover;
+    border-radius: 10px;
+}
+#video div.container div.background div.img2 {
+    display: block;
+    /* margin: 50% 50%; */ 
+    padding: 204.09px 360.08px 204.73px 359.43px;
+}
+#logos{
+
+}
+#logos div.container {
+    
+} 
+#logos div.container ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    justify-content: space-between;
+    /* border: 1px solid black; */
+    align-items: center;
+    padding: 70px 172px;
+}
+#logos div.container ul li {
+    
+}
+#logos div.container ul li img {
+    
+}  
+#features {
+
+}
+#features div.container {
+    padding: 116px 90px;
+}
+#features div.container ul {
+    display: flex;
+    /* border: 1px solid black; */
+    gap: 60px;
+}
+#features div.container ul li{
+    
+}
+#features div.container ul li figure {
+
+}
+#features div.container ul li figure div.icon {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 40px;
+}
+/* #features div.container ul li figure img {
+    display: block;
+    justify-content: center;
+    border: 1px solid black;
+} */
+#features div.container ul li figure figcaption {
+    /* border: 1px solid black; */
+    text-align: center;
+}
+#features div.container ul li figure figcaption h5 {
+    font-family: poppinssemibold;
+    font-size: 18px;
+    color: #2D2D2D;
+    margin-bottom: 15px;
+}
+#features div.container ul li figure figcaption h5 p {
+    font-family: poppinsregular;
+    font-size: 18px;
+    line-height: 32px;   
+}
+#userfeedback {
+    background: #ECE7FB;
+    padding: 50px 224.5px;
+}
+#userfeedback div.container{
+    display: flex;
+    gap: 60px;
+}
+#userfeedback div.container div.left{
+    
+}
+#userfeedback div.container div.left div.frame {
+    width: 353px;
+    height: 400px;
+    border-radius: 400px;
+    overflow: hidden;
+}
+#userfeedback div.container div.left div.frame img{
+    display: block;
+    width: 100%;
+    height: 100%;
+}
+#userfeedback div.container div.right{
+    margin: 50px 0;
+}
+#userfeedback div.container div.right div.top{
+    
+}
+#userfeedback div.container div.right div.top div.quote{
+    width: 61.84px;
+    height: 45.53px;
+    margin-bottom: 20px;
+}
+#userfeedback div.container div.right div.top div.quote img{
+    width: 100%;
+    height: 100%;
+}  
+#userfeedback div.container div.right div.mid{
+    color: #2D2D2D;
+    font-family: Poppinssemibold;
+    line-height: 32px;
+    margin-bottom: 40px;
+    width: 100%;
+
+}
+#userfeedback div.container div.right div.bottom{
+    
+}
+#cta {
+    background: #FCFAF5;;
+    padding: 75px 0;
+}
+#cta div.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    /* border: 1px solid black; */
+}
+#cta div.container div.left {
+    width: 39%;
+    /* border: 1px solid black; */
+}
+#cta div.container div.left h2 {
+    font-family: 'poppinssemibold';
+    font-size: 70px;
+    color: #2d2d2d;
+    margin-bottom: 25px;
+}
+#cta div.container div.left p {
+
+}
+#cta div.container div.left a.button {
+    display: inline-block;
+    padding: 21px 50px;
+    background: #F8D57E;
+    border-radius: 7px;
+    margin-top: 83px;
+}
+#cta div.container div.right {
+    width: 480px;
+    height: 360px;
+    border-radius: 10px;
+    overflow: hidden;
+    /* border: 1px solid black; */
+}
+#cta div.container div.right img {
+    display: block;
+    height: 100%;
+    width: 100%;
+}
+footer {
+    /* border: 1px solid black; */
+}
+footer div.container {
+    padding: 70px 80.5px;
+    /* border: 1px solid black; */
+    /* display: flex;
+    justify-content: space-between;
+    align-items: center; */
+}
+footer div.container div.left {
+    
+}
+footer div.container div.top div.left div.footlogo {
+    margin-bottom: 70px;
+}
+footer div.container div.top{
+    display: flex;
+    justify-content: space-between;
+}
+footer div.container div.top div.left div.footlogo {
+    width: 154px;
+    height: 35px;
+}
+footer div.container div.top div.left div.footlogo img {
+    display: block;
+    width: 100%;
+}
+footer div.container div.top div.left div.mid {
+    margin-bottom: 33px;
+}
+footer div.container div.top div.left div.mid p {
+    margin-bottom: 12px;
+    color: #2D2D2D;
+}
+footer div.container div.top div.left div.mid #mail {
+    border: 1px solid #D0D0D0;
+    width: 150px;
+    height: 36px;
+    border-radius: 10px;
+    padding: 11px 152px 11px 20px;
+}
+footer div.container div.top div.left div.mid .button {
+    margin-left: 20px;
+    border-radius: 10px;
+    background: #36F;
+    width: 116px;
+    height: 54px;
+    color: white;
+    cursor: pointer;
+}
+footer div.container div.bottom div.left {
+    
+}
+footer div.container div.bottom div.left ul {
+    display: flex;
+    gap: 30px;
+}
+footer div.container div.bottom div.left ul li {
+    
+}
+footer div.container div.bottom div.left ul li a {
+    color: #2D2D2D;
+    font-family: poppinssemibold;
+}
+footer div.container div.right {
+
+}
+footer div.container div.top div.right  {
+    display: flex;
+    gap: 60px;
+    text-transform: capitalize;
+}
+footer div.container div.top div.right div.story {
+    
+}
+footer div.container div.top div.right div.story ul {
+    
+}
+footer div.container div.top div.right div.story ul li {
+    line-height: 40px;
+}
+footer div.container div.top div.right div.story ul li:nth-child(2) {
+    text-transform: uppercase;
+}
+footer div.container div.top div.right div.story ul li h6 {
+    color: #2D2D2D;
+    font-size: 18px;
+    font-family: poppinssemibold;
+    text-transform: capitalize;
+}
+footer div.container div.top div.right div.story ul li a{
+    
+}
+footer div.container div.top div.right div.care {
+    
+}
+footer div.container div.top div.right div.care ul{
+    
+}
+footer div.container div.top div.right div.care ul li {
+    line-height: 40px;
+}
+footer div.container div.top div.right div.care ul li h6 {
+    color: #2D2D2D;
+    font-size: 18px;
+    font-family: poppinssemibold;
+    text-transform: capitalize;
+}
+footer div.container div.top div.right div.care ul li a {
+    
+}
+footer div.container div.top div.right div.shop {
+    
+}
+footer div.container div.top div.right div.shop ul {
+    
+}
+footer div.container div.top div.right div.shop ul li {
+    line-height: 40px;
+}
+footer div.container div.top div.right div.shop ul li h6 {
+    color: #2D2D2D;
+    font-size: 18px;
+    font-family: poppinssemibold;
+    text-transform: capitalize;
+}
+footer div.container div.top div.right div.shop ul li a {
+    
+}
+footer div.container div.bottom {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+footer div.container div.bottom div.right {
+    /* border: 1px solid black; */
+    display: flex;
+    /* justify-content: end; */
+    /* margin-top: 99px; */
+    gap: 20px;
+    /* align-items: center; */
+}
+footer div.container div.bottom div.right div.media1 {
+    width: 46px;
+    height: 46px;
+}
+footer div.container div.bottom div.right div.media1 img {
+    display: block;
+    width: 100%;
+    height: 100%;
+}
+footer div.container div.bottom div.right div.media2 {
+    width: 30px;
+    height: 30px;
+    background-color: #000000;
+    border-radius: 100px;
+    padding: 7px;
+}
+footer div.container div.bottom div.right div.media2 img {
+    display: block;
+    width: 100%;
+    height: 100%;
+}
+footer div.container div.bottom div.right div.media3 {
+    width: 30px;
+    height: 30px;
+    background-color: #2d2d2d;
+    border-radius: 100px;
+    padding: 7px;
+}
+footer div.container div.bottom div.right div.media3 img {
+    display: block;
+    width: 100%;
+    height: 100%;
+}
+footer div.container div.bottom div.right div.media4 {
+   height: 30px;
+   width: 30px;
+   border: 1px solid black;
+   background-color: #ECE7FB;
+   border-radius: 100px;
+   padding: 7px;
+}
+footer div.container div.bottom div.right div.media4 img {
+    display: block;
+    width: 100%;
+    height: 100%;
+}
+@media all and (max-width:360px) {
+    .wrapper{
+        width: auto;
+        margin: 0 0;
+    }
+    header div.container h1 {
+        margin-left: 20px;
+    }
+    header div.container h1 a img{
+        width: 154px;
+        height: 35px;
+    }
+    header div.container nav {
+        display: none;
+    }
+    #spotlight {
+        padding: 0 0;
+    }
+    #spotlight div.container div.left {
+        width: 100%;
+    }
+    #spotlight div.container div.left h2 {
+        font-size: 50px;
+        /* text-align: center;
+        display: flex;
+        justify-content: center; */
+    }
+    #spotlight div.container {
+        flex-direction: column;
+        display: flex;
+        /* justify-content: center; */
+        align-items: center;
+        width: auto;
+        text-align: center;
+        padding: 80px 20px;
+    }
+    #spotlight div.container div.right {
+        margin-top: 60px;
+        width: 320px;
+        height: auto;
+    }
+    #logos{
+        padding: 41px 5px;
+    }
+    #logos div.container{
+        border: 1px solid black;
+    }
+    #logos div.container ul {
+        padding: 0 0;
+        flex-wrap: wrap;
+        gap: 2px;
+        
+    }
+    #logos div.container ul li img{
+        width: 60%;
+        
+    }
+    #video{
+        padding: 54px 20px;
+    }
+    #video div.container {
+        padding: 0 0;
+        width: auto;
+        height: auto;
+    }
+    #video div.container div.background{
+        width: 319px;
+        height: 192px;
+        /* width: auto; */
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    #video div.container div.background div.img2{
+        width: 20px;
+        height: 19px;
+        padding: 0 0;
+    }
+    #video div.container div.background div.img2 img{
+        width: 100%;
+        height: 100%;
+    }
+    #features {
+        padding-left: 0px 0px;
+        display: flex;
+        justify-content: center;
+    }
+    #features div.container {
+        padding: 0 0;
+        width: 100%;
+        height: auto;
+    }
+    #features div.container ul{
+        flex-wrap: wrap;
+        justify-content: center;
+        /* border: 1px solid black; */
+        width: 230px;
+        
+    }
+    #userfeedback {
+        font-size: 30px;
+        padding: 27px 47px
+        
+    }
+    #userfeedback div.container {
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 0;
+    }
+    #userfeedback div.container div.right {
+        font-size: 19px;
+    }
+    #userfeedback div.container div.left div.frame {
+        width: 259.455px;
+        height: 294px;
+        
+    }
+    #userfeedback div.container div.right div.mid {
+        width: auto;
+        height: auto;
+    }
+    #cta {
+        padding: 80px 20px;
+    }
+    #cta div.container {
+        display: flex;
+        justify-content: center;
+        gap: 60px;
+    }
+    #cta div.container div.left {
+        width: 100%;
+        text-align: center;
+    }
+    #cta div.container div.left h2 {
+        font-size: 50px;
+    }
+    #cta div.container div.left p{
+        margin-bottom: 0;
+    }
+    #cta div.container div.left a.button {
+        margin-top: 40px;
+    }
+     footer{
+
+    }
+    footer div.container {
+        padding: 40px 20px;
+    }
+    footer div.container div.top{
+        flex-direction: column;
+    }
+    footer div.container div.bottom {
+        flex-direction: column;
+        margin-top: 40px;
+    } 
+    footer div.container div.top div.right li {
+        display: none;
+    }
+    footer div.container div.top div.right li:nth-child(1) {
+        display: block;
+    }
+    footer div.container div.top div.right {
+        flex-direction: column;
+    }
+    footer div.container div.bottom div.left {
+        width: 100%;
+    }
+    footer div.container div.bottom div.left ul {
+        flex-direction: column-reverse;
+        align-items: start;
+        font-size: 18px;
+    }
+    footer div.container div.bottom div.right{
+        width: 100%;
+        margin-top: 40px;
+    }
+    footer div.container div.top div.left div.mid .button {
+        width: 100%;
+        margin-left: 0;
+    }
+    footer div.container div.top div.left div.mid #mail {
+        margin-bottom: 20px;
+        width: 146px;
+    }
+}
+@media all and (max-width : 1080px) {
+    #userfeedback {
+        width: auto;
+        padding: 50px;
+    }
+}
+@media all and (max-width : 980px) {
+    footer div.container div.top div.left div.mid #mail {
+        margin-bottom: 20px;
+        width: 100px;
+    }
+    footer div.container div.top div.left div.mid .button {
+        width: 25%;
+        margin-left: 0;
+    }
+}
+@media all and (max-width:768px){
+    #userfeedback {
+        width: auto;
+        padding: 20px 0;
+    }
+    #userfeedback div.container{
+        width: auto;
+    }
+    #userfeedback div.container div.right div.mid{
+        width: 100%;
+    }
+    #features div.container {
+        padding: 20px 0;
+    }
+    #logos div.container ul {
+        padding: 50px;
+    }
+    #logos div.container ul li {
+        padding: 20px;
+    }
+    #video{
+        padding: 54px 20px;
+    }
+    #video div.container {
+        padding: 0 0;
+        width: auto;
+        height: auto;
+    }
+    #video div.container div.background{
+        width: 80%;
+        height: 300px;
+        /* width: auto; */
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    #video div.container div.background div.img2{
+        width: 20px;
+        height: 19px;
+        padding: 0 0;
+    }
+    #video div.container div.background div.img2 img{
+        width: 100%;
+        height: 100%;
+    }
+    #cta div.container div.right {
+        width: auto;
+        height: 350px;
+    }
+    #cta div.container div.left h2 {
+        font-size: 50px;
+    }
+    #cta div.container div.left a.button{
+        padding: 18px 25px;
+    }
+    #cta div.container div.left p{
+        font-size: 15px;
+    }
+    #spotlight div.container div.right {
+        width: 50%;
+        height: 300px;
+    }
+    #spotlight div.container div.right img{
+        width: 100%;
+        height: 100%;
+    }
+    #spotlight div.container div.left h2 {
+        font-size: 50px;
+    }
+    #spotlight div.container div.left a.button{
+        padding: 18px 25px;
+    }
+    #spotlight div.container div.left p{
+        font-size: 15px;
+    }
+    footer div.container{
+        padding: 70px 30px;
+        font-size: 14px;
+    }
+}
+@media all and (max-width:640px) {
+    #spotlight div.container div.left{
+        width: 50%;
+        font-size: 10px;
+    }
+    #spotlight div.container div.right {
+        width: 45%;
+        height: 270px;
+        
+    }
+    #userfeedback div.container{
+        flex-direction: column;
+        align-items: center;
+    }
+    #userfeedback div.container div.left {
+        height: 25%;
+        width: auto;
+        /* border: 1px solid black; */
+    }
+    footer div.container{
+        padding: 70px 30px;
+        font-size: 11px;
+    }
+    footer div.container div.bottom div.left ul {
+        
+    }
+    footer div.container div.top div.left div.mid #mail {
+        margin-bottom: 20px;
+        width: 70px;
+        padding-right: 100px;
+    }
+    footer div.container div.top div.right {
+        width: 50%;
+        gap: 25px;
+    }
+}
+@media all and (max-width:480px) {
+    footer div.container {
+        padding: 40px 20px;
+    }
+    footer div.container div.top{
+        flex-direction: column;
+    }
+    footer div.container div.bottom {
+        flex-direction: column;
+        margin-top: 40px;
+    } 
+    footer div.container div.top div.right li {
+        display: none;
+    }
+    footer div.container div.top div.right li:nth-child(1) {
+        display: block;
+    }
+    footer div.container div.top div.right {
+        flex-direction: column;
+        gap: 9px;
+    }
+    footer div.container div.bottom div.left {
+        width: 100%;
+    }
+    footer div.container div.bottom div.left ul {
+        flex-direction: column-reverse;
+        align-items: start;
+    }
+    footer div.container div.bottom div.right{
+        width: 100%;
+        margin-top: 40px;
+    }
+    footer div.container div.top div.left div.mid .button {
+        width: 100%;
+        margin-left: 0;
+    }
+    footer div.container div.top div.left div.mid #mail {
+        margin-bottom: 20px;
+        width: 146px;
+    }
+    #features {
+        padding: 0px 0px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    #features div.container {
+        padding: 0 0;
+        width: 100%;
+        height: auto;
+        border: 1px solid black;
+    }
+    #features div.container ul{
+        flex-wrap: wrap;
+        justify-content: center;
+        /* border: 1px solid black; */
+        width: 230px;
+        
+    }
+    
+}

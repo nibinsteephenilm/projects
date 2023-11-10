@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="stylesheet" href="css/style.css" />
+        <title>PAINT</title>
+    </head>
+    <body>
+
+        <div class="container">
+            <section class="toolbox" id="toolboxid">
+                    <div class="undoredo">
+                        <button id="undoButton">↩</button>
+                        <button id="redoButton">↪</button>
+                    </div>
+                <div class="rows">
+                    <label class="title">shapes</label>
+                    <ul>
+                        <li class="options tool" id="rectangle">
+                            <div class="img"><img src="images/rectangle.svg" alt=""></div>
+                            <span>Rectangle</span>
+                        </li>
+                        <li class="options tool" id="circle">
+                            <div class="img"><img src="images/circle.svg" alt=""></div>
+                            <span>circle</span>
+                        </li>
+                        <li class="options tool" id="triangle">
+                            <div class="img"><img src="images/triangle.svg" alt=""></div>
+                            <span>triangle</span>
+                        </li>
+                        <li class="options tool" id="line">
+                            <div class="img"><img src="images/line.png" alt="/" ></div>
+                            <span>line</span>
+                        </li>
+                        <li class="options" id="oo">
+                            <input type="checkbox" name="" id="fill-color">
+                            <label for="fill-color" id="spanlabel">fill color</label>
+                        </li>
+                    </ul>
+                </div>
+                <div class="rows option">
+                    <label class="title">options</label>
+                    <ul>
+                        <li class="options active tool" id="brush">
+                            <div class="img"><img src="images/brush.svg" alt=""></div>
+                            <span>Brush</span>
+                        </li>
+                        <li class="options tool" id="eraser">
+                            <div class="img"><img src="images/eraser.svg" alt=""></div>
+                            <span>Eraser</span>
+                        </li>
+                        <li class="options">
+                            <input type="range" name="slider" id="slider" min="1" max="30" value="10">
+                        </li>
+                    </ul>
+                </div>
+                <div class="rows colors">
+                    <label class="title">Colors</label>
+                    <ul>
+                        <li class="options"></li>
+                        <li class="options selected"></li>
+                        <li class="options"></li>
+                        <li class="options"></li>
+                        <li class="options">
+                            <input type="color" name="picker" value="#4898f7" id="colorpicker">
+                        </li>
+                    </ul>
+                </div>
+                <div class="row buttons">
+                    <button type="button" class="clear" id="clearid">Clear canvas</button>
+                    <button type="button" class="save-img" id="saveimgid">Save As Image</button>
+                    
+                </div>
+            </section>
+            <section class="drawing-board" id="drawing-boardid">
+                <canvas></canvas>
+            </section>
+        </div>
+        <div class="eraser-cursor"></div>
+        
+
+        
+        <script src="script/script.js"></script>
+    </body>
+</html>

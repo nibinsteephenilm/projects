@@ -1,0 +1,594 @@
+* {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	vertical-align: baseline;
+	background: transparent;
+	font-weight: normal;
+	text-decoration: none;
+	outline: none;
+    list-style: none;
+}
+ol, ul {
+	list-style: none;
+}
+header, section, article, aside, nav, footer, address {
+	display: block;
+}
+body {
+	font-family: 'gruppo';
+	font-size: 22px;
+	overflow-x: hidden;
+    background-color: #131313;
+    color: #CACACA;
+}
+input,textarea,select {
+	font-family: 'gruppo';
+}
+a {
+	color: #CACACA;
+}
+a:hover,.submit:hover {
+	filter: alpha(opacity = 85);
+	-moz-opacity: 0.85;
+	-khtml-opacity: 0.85;
+	opacity: 0.85;
+}
+p {
+	line-height:1.6em;
+}
+.wrapper {
+	width: 90%;
+	margin: 0 auto;
+	/* max-width: 1200px; */
+	max-width: 1300px;
+}
+@font-face {
+    font-family: 'gruppo';
+    src: url('../fonts/Gruppo-Regular.woff2') format('woff2'),
+        url('../fonts/Gruppo-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+@font-face {
+    font-family: 'poppinsmedium';
+    src: url('../fonts/poppins-medium-webfont.woff2') format('woff2'),
+         url('../fonts/poppins-medium-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+header {
+
+}
+header::after {
+	content: url(../images/elipse.svg);
+	position: absolute;
+	right: 0;
+	top: -15%;
+	z-index: -1;
+}
+#spotlight::after {
+	content: url(../images/last\ eclipse.svg);
+	position: absolute;
+	bottom: 0;
+	left: 0;
+}
+#spotlight::before {
+	content: url(../images/secondlasteclipse.svg);
+	position: absolute;
+	bottom: 0;
+	left: 0;
+}
+header div.container {
+	
+    display: flex;
+    justify-content: space-between;
+    padding: 45px 0;
+    align-items: center;
+    flex-wrap: wrap;
+}
+header div.container h1 {
+
+}
+header div.container h1 a {
+    display: flex;
+    align-items: center;
+}
+header div.container h1 a div.logoframe {
+    display: flex;
+    align-items: center;
+    width: 87px;
+}
+header div.container h1 a div.logoframe img {
+    width: 100%;
+}
+header div.container nav {
+    
+}
+header div.container nav ul {
+    display: flex;
+    gap: 35px;
+    text-transform: capitalize;
+}
+header div.container nav ul li {
+    position: relative;
+	padding-bottom: 8px ;
+}
+header div.container nav ul li a:hover {
+	color: #A3A2DB;
+	transition: 1s;
+}
+header div.container nav ul li::after {
+    content: "";
+    display: block;
+    width: 0;
+    height: 6px;
+    border-radius: 8px;
+    background-color: #5972CF;
+    position: absolute;
+	top: 30px;
+    left: 50%;
+	margin-left: -10%;
+    transition: width 0.3s ease-in-out, left 0.3s ease-in-out;
+    opacity: 0;
+}
+header div.container nav ul li:hover::after {
+    width: 120%;
+    left: 0;
+    opacity: 1;
+	
+}
+header div.container div.lastelement a {
+	
+}
+header div.container div.lastelement a.button {
+	display: block;
+	cursor: pointer;
+	color: #FFF;
+    font-size: 24px;
+	padding: 16px 24px;
+	border-radius: 4px;
+	border-right: 1px solid var(--blue-violet, #1076A5);
+	background: linear-gradient(102deg, #66549A 10.8%, #5972CF 102.21%);
+	font-weight: 600;
+	text-transform: capitalize;
+}
+header div.container nav ul li a {
+	
+}
+#spotlight {
+	position: relative;
+}
+/* #spotlight div.container::before {
+	content: "";
+	position: absolute;
+	display: flex;
+	width: 528px;
+	height: 558px;
+	border-radius: 558px;
+	background: radial-gradient(50% 50% at 50% 50%, #7D89D9 0%, rgba(0, 33, 255, 0.00) 100%);
+	filter: blur(242px);
+} */
+#spotlight div.container::before {
+	content: "";
+	position: absolute;
+	display: flex;
+	width: 528px;
+	height: 558px;
+	background-image: url(../images/gradient.svg);
+	background-position: center;
+	background-size: cover;
+}
+#spotlight div.container {
+	display: flex;
+	gap: 130px;
+	align-items: center;
+	flex-wrap: wrap;
+}
+#spotlight div.container div.left {
+
+}
+#spotlight div.container div.left div.top {
+	display: flex;
+	align-items: center;
+	text-transform: capitalize;
+	margin-bottom: 24px;
+}
+#spotlight div.container div.left div.top div.discount {
+	width: 64px;
+}
+#spotlight div.container div.left div.top div.discount img {
+	width: 100%;
+}
+#spotlight div.container div.left div.top div.p1 {
+	margin-left: 16px;
+	color: #FFF;
+	font-size: 20px;
+}
+#spotlight div.container div.left div.top div.p {
+	
+}
+#spotlight div.container div.left div.top div.p2 {
+	color: #9CA7F7;
+	font-size: 20px;
+}
+#spotlight div.container div.left div.top div.p {
+	
+}
+#spotlight div.container div.left div.mid {
+	/* width: 900px; */
+	margin-bottom: 44px;
+	
+}
+#spotlight div.container div.left div.mid h2 {
+	font-size: 80px;
+	font-weight: 700;
+	text-transform: capitalize;
+}
+#spotlight div.container div.left div.bottom {
+	display: flex;
+	justify-content: center;
+}
+#spotlight div.container div.left div.bottom div.uparrow {
+	width: 215px;
+}
+#spotlight div.container div.left div.bottom div.uparrow img {
+	width: 100%;
+}
+#spotlight div.container div.right {
+	display: flex;
+	/* gap: 44px; */
+	position: relative;
+	width: 40%;
+}
+#spotlight div.container div.right div.mainimg {
+	position: relative;
+}
+#spotlight div.container div.right div.mainimg div.bonus {
+	width: 174px;
+	background-color: #0021FF;
+	border-radius: 24px;
+	padding: 12px;
+	font-size: 18px;
+	color: #FFF;
+	text-transform: capitalize;
+	font-family: 'poppinsmedium';
+	line-height: 24px;
+	position: absolute;
+	top: 300px;
+	transform: translateX(-60%);
+	animation: bouncing 2s linear infinite 0.1s ;
+}
+#spotlight div.container div.right div.mainimg div.bonus figure {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	text-align: center;
+}
+#spotlight div.container div.right div.mainimg div.bonus figure div.bonusimg {
+	width: 22px;
+	padding: 8px;
+	background-color: #FFF;
+	border-radius: 4px;
+	margin-bottom: 16px;
+	display: flex;
+	align-items: center;
+}
+#spotlight div.container div.right div.mainimg div.bonus figure div.bonusimg img {
+	width: 100%;
+}
+#spotlight div.container div.right div.mainimg div.bonus figure figcaption {
+	
+}
+#spotlight div.container div.right div.mainimg div.spotimg {
+	width: 357px;
+	border-radius: 23px;
+}
+#spotlight div.container div.right div.mainimg div.spotimg img {
+	width: 100%;
+}
+#spotlight div.container div.right div.mainimg div.arrow {
+	position: absolute;
+	right: 0;
+	bottom: 20px;
+	transform: translateX(50%);
+}
+
+#spotlight div.container div.right div.mainimg div.arrow figure {
+	display: flex;
+	align-items: center;
+	gap: 24px;
+}
+#spotlight div.container div.right div.mainimg div.arrow figure div.arrowimg {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	width: 44px;
+}
+#spotlight div.container div.right div.mainimg div.arrow figure div.arrowimg img {
+	width: 100%;
+	animation: glowAnimation 2s linear infinite;
+    border-radius: 50%;
+}
+ @keyframes bouncing {
+	0%{
+		opacity: 0;
+		top: 100px;
+	}
+	10%{
+		top: 150px;
+	}
+	20%{
+		opacity: 1;
+		top: 200px;
+	}
+	30%{
+		top: 250px;
+	}	
+	40%{
+		top: 300px;
+	}
+	50%{
+		top: 270px;
+	}
+	60%{
+		top: 300px;
+	}
+	70%{
+		top: 280px;
+	}
+	80%{
+		top: 300px;
+	}
+	90%{
+		top: 295px;
+	}
+	100%{
+		top: 300px;
+	}
+}
+@keyframes glowAnimation {
+    0% {
+        box-shadow: 0 0 100px #875995, 0 0 20px #875995, 0 0 30px #875995;
+        width: 60%;
+    }
+	25% {
+		box-shadow: 0 0 20px #875995, 0 0 30px #875995, 0 0 40px #875995;
+		width: 80%;
+	}
+    50% {
+        box-shadow: 0 0 20px #875995, 0 0 30px #875995, 0 0 40px #875995;
+		width: 100%;
+	}
+	75% {
+		box-shadow: 0 0 20px #875995, 0 0 30px #875995, 0 0 40px #875995;
+		width: 80%;
+	}
+    100% {
+        box-shadow: 0 0 10px #875995, 0 0 20px #875995, 0 0 30px #875995;
+		width: 60%;
+    }
+}
+#spotlight div.container div.right div.mainimg div.arrow figure figcaption {
+	width: 135px;
+	font-weight: 500;
+	animation: glowText 2s linear infinite;
+}
+@keyframes glowText {
+    0% {
+        color: #605c5c;
+    }
+	25%{
+		color: #a99e9e;
+	}
+	50%{
+		color: #ffffff;
+		font-weight: bold;
+	}
+	75%{
+		color: #a99e9e;
+	}
+	100%
+	{
+		color: #605c5c;
+	}
+}
+#spotlight div.container div.right div.vector {
+	width: 104px;
+	position: absolute;
+	right: 0;
+	top: 220px;
+}
+#spotlight div.container div.right div.vector img {
+	width: 100%;
+}
+@media all and (max-width:1432px) {
+	#spotlight div.container {
+		justify-content: space-between;
+	}
+	#spotlight div.container div.left {
+		width: 60%;
+	}
+	#spotlight div.container div.left div.mid {
+		width: 100%;
+	}
+	#spotlight div.container div.left {
+		width: 40%;
+	}
+}
+@media all and (max-width:1380px){
+		#spotlight div.container div.right div.vector {
+			display: none;
+	}
+	
+}
+@media all and (max-width:1280px){
+
+}
+@media all and (max-width:1080px){
+	#spotlight div.container div.right {
+    width: 37%;
+	}
+	#spotlight div.container {
+		gap: 20px;
+	}
+	#spotlight div.container div.left div.mid h2 {
+		font-size: 64px;
+	 }
+	#spotlight div.container div.left div.bottom div.uparrow {
+    width: 174px;
+	}
+	#spotlight::after {
+		bottom: -42px;
+		left: -119px;
+	}
+	#spotlight::before {
+		bottom: -46px;
+		left: -166px;
+	}
+	header::after {
+		right: -21px;
+		top: -60%;
+	}
+	header div.container nav ul {
+		gap: 24px;
+	}
+}
+@media all and (max-width:980px){
+	header div.container nav ul {
+		display: none;
+	}
+	#spotlight div.container div.right div.mainimg div.spotimg {
+    	width: 302px;
+	}
+	#spotlight div.container div.right div.mainimg div.bonus figure figcaption {
+	 line-height: 17px;
+	 font-size: 14px;
+	}
+	#spotlight div.container div.right div.mainimg div.bonus {
+		padding: 6px;
+	}
+	#spotlight div.container div.right div.mainimg div.bonus figure div.bonusimg {
+    padding: 5px;
+	}
+	#spotlight div.container div.right div.mainimg div.arrow figure {
+		display: flex;
+		align-items: center;
+		gap: 7px;
+	}
+	#spotlight div.container div.right div.mainimg div.arrow {
+		transform: translateX(35%);
+	}
+	#spotlight div.container div.right div.mainimg div.arrow figure figcaption {
+		width: 87px;
+		font-size: 14px;
+	}
+	#spotlight div.container div.right div.mainimg div.arrow figure div.arrowimg {
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		width: 37px;
+	}
+	#spotlight div.container::before {
+		width: 90%;
+		z-index: -1;
+	}
+}
+@media all and (max-width:944px){
+	#spotlight div.container div.left {
+		width: 100%;
+		display: flex;
+		flex-direction: column;
+		text-align: center;
+		align-items: center;
+	}
+	#spotlight div.container div.right {
+		width: 100%;
+		justify-content: center;
+	}
+}
+@media all and (max-width:768px){
+
+}
+@media all and (max-width:640px){
+	
+}
+@media all and (max-width:480px){
+	#spotlight div.container div.left div.mid h2 {
+		font-size: 40px;
+	 }
+	 header div.container div.lastelement a.button {
+		font-size: 17px;
+		padding: 10px 15px;
+	 }
+	 header::after {
+		right: -14px;
+		top: -90%;
+	 }
+	 #spotlight div.container div.left div.top div.discount {
+		width: 47px;
+	 }
+	 #spotlight div.container div.left div.top div.p1 {
+		font-size: 18px;
+	 }
+	 #spotlight div.container div.left div.top div.p2 {
+		font-size: 18px;
+	 }
+	 #spotlight div.container div.right div.mainimg div.spotimg {
+		width: 248px;
+	}
+	#spotlight div.container div.right div.mainimg div.bonus figure div.bonusimg {
+		padding: 2px;
+	}
+	#spotlight div.container div.right div.mainimg div.bonus {
+		width: 141px;
+		transform: translateX(-33%);
+		top: 220px;
+		animation: bouncing 2s linear infinite;
+	}
+	@keyframes bouncing {
+		0%{
+			opacity: 0;
+			top: 100px;
+		}
+		10%{
+			top: 120px;
+		}
+		20%{
+			opacity: 1;
+			top: 140px;
+		}
+		30%{
+			top: 160px;
+		}	
+		40%{
+			top: 180px;
+		}
+		50%{
+			top: 200px;
+		}
+		60%{
+			top: 220px;
+		}
+		70%{
+			top: 205px;
+		}
+		80%{
+			top: 220px;
+		}
+		90%{
+			top: 215px;
+		}
+		100%{
+			top: 220px;
+		}
+	}
+
+}
+@media all and (max-width:360px){
+	
+}
+@media all and (max-width:320px){
+	
+}
