@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>photo editor</title>
+    <link rel="stylesheet" href="css/jcrop.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <div class="container">
+
+        <div class="top">
+            <ul>
+                <li class="tools" id="newPage">
+                    <div class="img"><img src="images/new.png" alt=""></div>
+                    <label for="">New</label>
+                </li>
+                <li class="tools" id="open">
+                    <div class="img"><img src="images/open.png" alt=""></div>
+                    <label for="">Open</label>
+                </li>
+                <li class="tools" id="crop">
+                    <div class="img"><img src="images/crop.png" alt=""></div>
+                    <label for="">Crop</label>
+                </li>
+                <li class="tools" id="text">
+                    <div class="img"><img src="images/text.png" alt=""></div>
+                    <label for="">Text</label>
+                </li>
+                <li class="tools" id="background">
+                    <div class="img"><img src="images/background.png" alt=""></div>
+                    <label for="">Background Color</label>
+                </li>
+                <li class="tools" id="filter">
+                    <div class="img"><img src="images/filter.png" alt=""></div>
+                    <label for="">Filter</label>
+                </li>
+                <li class="tools" id="save">
+                    <div class="img"><img src="images/save.png" alt=""></div>
+                    <label for="">save</label>
+                </li>
+            </ul>
+        </div>
+        <div class="bottom">
+            <canvas class="canvas" >
+
+            </canvas>
+            <input type="color" id="colorPicker" style="display: none;">
+        </div>
+    </div>
+    <script src="script/jquery.js"></script>
+    <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
+    <script src="script/jcrop.js"></script>
+    <script src="script/script.js"></script>
+</body>
+</html>
